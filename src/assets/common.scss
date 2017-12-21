@@ -1,0 +1,94 @@
+/*
+* @Author: yanfangli
+* @Date:   2017-12-07 19:16:12
+* @Last Modified by:   liyanfang
+* @Last Modified time: 2017-12-11 16:30:54
+*/
+* { -webkit-tap-highlight-color: transparent; outline: 0; margin: 0; padding: 0; vertical-align: baseline; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; vertical-align: baseline; }
+img { border: 0 none; vertical-align: top; }
+i, em { font-style: normal; }
+ol, ul { list-style: none; }
+input, select, button, h1, h2, h3, h4, h5, h6 { font-size: 100%; font-family: inherit; }
+table { border-collapse: collapse; border-spacing: 0; }
+a { text-decoration: none; color: #666; }
+body { margin: 0 auto; min-width: 320px; max-width: 640px; height: 100%; font-size: 14px; fon-family: -apple-system,Helvetica,sans-serif; line-height: 1.5; color: #666; -webkit-text-size-adjust: 100% !important; text-size-adjust: 100% !important; }
+input[type="text"], textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+$font-base-size: 24;
+body{
+    font-size: (26rem/$font-base-size);
+    padding-bottom:  (110rem/$font-base-size);
+    background: #edecf2;
+}
+/**
+ * toast 提示框 scss 样式
+ */
+
+.toast{
+    position: fixed;
+    display: flex;
+    top: (270rem/$font-base-size);
+    align-items: center;
+    width: (370rem/$font-base-size);
+    left: 50%;
+    margin-left:-(185rem/$font-base-size);
+    justify-content:center;
+}
+.toast .toast-box {
+    display: block;
+    max-width: (370rem/$font-base-size);
+    min-width: (240rem/$font-base-size);
+    opacity: 0.7;
+    background: #111111;
+    border-radius: (10rem/$font-base-size);
+    box-sizing: border-box;
+    padding: (45rem/$font-base-size) (25rem/$font-base-size);
+    .toast-logo{
+        display: block;
+        height: (86rem/$font-base-size);
+        width: auto;
+        margin:0 auto;
+        margin-bottom: (30rem/$font-base-size);
+    }
+    .toast-txt{
+        font-size: (26rem/$font-base-size);
+        color: #FFFFFF;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+// 商品数量操作组件
+.m-num-operation{
+    display: inline-flex;
+    align-items: center;
+    & .minus,& .plus{
+        display:inline-block;
+        border: (2rem/$font-base-size) solid #E5E5E5;
+        border-radius: (6rem/$font-base-size);
+        color: #353535;
+        width:(50rem/$font-base-size);
+        text-align:center;
+        height:(50rem/$font-base-size);
+        line-height:(50rem/$font-base-size);
+        font-size:(36rem/$font-base-size);
+        font-weight: bold;
+        &.disabled{
+            color: #ccc;
+        }
+    }
+    & .num-box{
+        font-size: (34rem/$font-base-size);
+        color: #000000;
+        width: (80rem/$font-base-size);
+        margin:0 (10rem/$font-base-size);
+        .number{
+            width: 100%;
+            text-align: center;
+            border:0 none;
+            box-shadow: none;
+            line-height: (50rem/$font-base-size);
+            background: none;
+        }
+    }
+}

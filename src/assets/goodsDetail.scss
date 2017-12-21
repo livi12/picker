@@ -1,0 +1,134 @@
+/*
+* @Author: yanfangli
+* @Date:   2017-12-07 19:12:19
+* @Last Modified by:   yanfangli
+* @Last Modified time: 2017-12-09 16:47:26
+*/
+
+$font-base-size: 24;
+.business {
+  border-bottom: 1px solid #E5E5E5;
+  padding: (20rem/$font-base-size) (30rem/$font-base-size);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  & .photo {
+    width: (58rem/$font-base-size);
+    height: (58rem/$font-base-size);
+    margin-right: (20rem/$font-base-size);
+    border-radius: 100%;
+  }
+  & .name {
+    font-size: (26rem/$font-base-size);
+    color: #999;
+  }
+}
+.goods-info{
+    padding:(30rem/$font-base-size);
+    .title{
+        font-size: (34rem/$font-base-size);
+        color: #222222;
+        margin-bottom:(10rem/$font-base-size);
+    }
+    .desc{
+        font-size: (28rem/$font-base-size);
+        color: #999999;
+    }
+    .goods-pic{
+        width: 100%;
+        display: block;
+        height: auto;
+        border: 1px solid #E5E5E5;
+        margin: (30rem/$font-base-size) auto;
+    }
+    .pirce{
+        font-size: (42rem/$font-base-size);
+        color: #E64340;
+        text-align: center;
+    }
+}
+.free-ship{
+    margin-top: (30rem/$font-base-size);
+    background: #F4F4F4;
+    padding: (20rem/$font-base-size);
+    font-size: (26rem/$font-base-size);
+    .title{
+        color: #666666;
+    }
+    .desc{
+        color: #999;
+    }
+}
+.all-free{
+    font-size: (26rem/$font-base-size);
+    color: #666666;
+    text-align:center;
+}
+.goods-detail{
+    margin-top:(100rem/$font-base-size);
+    border-top: 1px solid #58A82C;
+    padding-bottom:(20rem/$font-base-size);
+    & .logo{
+        margin: -(40rem/$font-base-size) auto 0;
+        width: (100rem/$font-base-size);
+        height: (42rem/$font-base-size);
+        background: #fff url(../../static/goods-detail.png) no-repeat top center;
+        background-size: (60rem/$font-base-size) (38rem/$font-base-size);
+    }
+    & .title{
+        color: #58A82C;
+        font-size: (26rem/$font-base-size);
+        text-align:center;
+    }
+}
+// 商品详情的底部
+.detail-footer{
+    display: flex;
+    position: fixed;
+    padding: 0 (10rem/$font-base-size) 0 (30rem/$font-base-size);
+    left:0;
+    width:100%;
+    height:(110rem/$font-base-size);
+    align-items:center;
+    bottom: 0;
+    justify-content:space-between;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0 -1px 0 0 #EEEEEE;
+    .goods-pic{
+        width:(80rem/$font-base-size);
+        height: (80rem/$font-base-size);
+        border-radius: 100%;
+        flex-shrink: 0;
+        border: 1px solid #EEEEEE;
+        margin-right: (20rem/$font-base-size);
+    }
+    .footer-info{
+        flex-grow: 1;
+        .price{
+            font-size: (38rem/$font-base-size);
+            color: #E64340;
+            letter-spacing: 0;
+        }
+        .quota{
+            font-size: (26rem/$font-base-size);
+            color: #666666;
+        }
+    }
+    .btn{
+        text-align: center;
+        width: (260rem/$font-base-size);
+        height: (88rem/$font-base-size);
+        line-height: (88rem/$font-base-size);
+        font-size: (36rem/$font-base-size);
+        color: #FFFFFF;
+        background: #1AAD19;
+        border: (2rem/$font-base-size) solid rgba(5,5,5,0.08);
+        border-radius: (10rem/$font-base-size);
+        flex-shrink: 0;
+        &.disabled{
+            background: #DEDEDE;
+            color: #666666;
+        }
+    }
+}
