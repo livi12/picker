@@ -51,6 +51,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 `listLabel` 为子节点的数据列表，默认是children 变量，可以更改为自己的数据节点变量
 `dot` 分割标记
 `reset` 不读取展示的时间，最顶端向下滑动
+`level` 几层数据格式，默认三层
 
 #### timerPicker 组件参数
 `pickerShow` 必传，显示和隐藏
@@ -59,6 +60,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 `endTime` 结束时间，必填
 `dot` 分割标记
 `reset` 不读取展示的时间，最顶端向下滑动
+`level` 几层数据格式，默认三层
+
     选择年，月份不会跟着滚动，日期判断，当选择的日期不在操作区域内，不做操作
 
 #### 开发过程中遇到的点：

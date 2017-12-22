@@ -16,12 +16,12 @@
                                 <div class="item" :class="[{on:index+startYear==nowYear+1} ]" v-for="index in (endYear - startYear+1)" :key="index">{{startYear + index -1}}</div>
                             </div>
                         </div>
-                        <div class="content-item"  v-picker.month="{set:set}" ref="month" :data-index="nowMonth-1">
+                        <div class="content-item"  v-picker.month="{set:set}" ref="month" :data-index="nowMonth-1" v-if="level==2 || level==3">
                             <div class="picker-item">
                                 <div class="item" :class="[{on :index==nowMonth},{disabled:disabledMonth(index)}]" v-for="index in 12" :key="index">{{index}}</div>
                             </div>
                         </div>
-                        <div class="content-item" v-picker.day="{set:set}" ref="day" :data-index="nowDay-1">
+                        <div class="content-item" v-picker.day="{set:set}" ref="day" :data-index="nowDay-1" v-if="level==3">
                             <div class="picker-item">
                                 <div class="item" :class="[{on :index==nowDay},{disabled:disabledDay(index)}]" v-for="index in days" :key="index">{{index}}</div>
                             </div>
@@ -60,7 +60,7 @@
         },
         level: {
           type: Number,
-          default: 1,
+          default: 3,
         },
       },
       data() {
@@ -87,10 +87,19 @@
       methods: {
         // 确定按钮
         confirm() {
-          if (this.$refs.day.firstChild.children[this.nowDay - 1].className.indexOf('disabled')>-1) {
-            return;
+          if (this.level == 3) {
+            if (this.$refs.day.firstChild.children[this.nowDay - 1].className.indexOf('disabled') > -1) {
+              return;
+            }
+            this.$emit('confirmFn', `${this.nowYear}-${this.nowMonth}-${this.nowDay}`);
+          } else if (this.level == 2) {
+            if (this.$refs.month.firstChild.children[this.nowMonth - 1].className.indexOf('disabled') > -1) {
+              return;
+            }
+            this.$emit('confirmFn', `${this.nowYear}-${this.nowMonth}`);
+          } else if (this.level == 1) {
+            this.$emit('confirmFn', `${this.nowYear}`);
           }
-          this.$emit('confirmFn', `${this.nowYear}-${this.nowMonth}-${this.nowDay}`);
         },
         // 取消按钮
         cancel() {

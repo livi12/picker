@@ -13,6 +13,9 @@
             <m-form-item label="联系电话">
                 <input class="ipt" v-model="userInfo.phone" />
             </m-form-item>
+            <m-form-item label="性别" v-on:click.native="showGender">
+                <p class="">{{gender}}</p>
+            </m-form-item>
             <m-form-item label="选择地区" v-on:click.native="getAddressInfo">
                 <p class="arrow">{{ addressNameShow}}</p>
             </m-form-item>
@@ -34,9 +37,10 @@
         <div class="footer">
             <a href="javascript:;" class="btn">去支付</a>
         </div>
-        <picker :pickList="address" :pickerShow="addressShow" :reset="false" :pickerNames="addressNames" v-on:cancelFn="cancelFn" v-on:confirmFn="confirmFn" label="area" listLabel="children"></picker>
+        <picker :pickList="address" :pickerShow="addressShow" :reset="false" :pickerNames="addressNames" v-on:cancelFn="cancelFn" v-on:confirmFn="confirmFn" label="area" listLabel="children" :level="2"></picker>
         <picker :pickList="dateList" :pickerShow="dateShow" :pickerNames="dateNames" dot="-" v-on:cancelFn="cancelDateFn" v-on:confirmFn="confirmDateFn" v-if="dateShow"></picker>
-        <timerPicker :pickerShow="date1Show" :showTime="showTime" startTime="2017-5-2" endTime="2028-1-2" dot="-" v-on:cancelFn="cancelDate1Fn" v-on:confirmFn="confirmDate1Fn"></timerPicker>
+        <timerPicker :pickerShow="date1Show" :showTime="showTime" startTime="2017-5-2" endTime="2028-1-2" dot="-" v-on:cancelFn="cancelDate1Fn" v-on:confirmFn="confirmDate1Fn" :level="3"></timerPicker>
+         <picker :pickList="genderList" :pickerShow="genderShow" :pickerNames="gender" v-on:cancelFn="cancelGenderFn" v-on:confirmFn="confirmGenderFn" :level="1"></picker>
     </div>
 </template>
 <script type="text/javascript">
@@ -77,6 +81,11 @@
           date1Show: false,
           dateList: [],
           showTime: '2018-2-3',
+          gender: '女',
+          genderList: [
+            { name: '女' }, { name: '男' },
+          ],
+          genderShow: false,
         };
       },
       components: {
@@ -89,7 +98,7 @@
         // 地址确认
         confirmFn(data) {
           let addressNames = '';
-          addressNames = data.thirdList ? `${data.firstList.name},${data.secondList.name},${data.thirdList.name}`:`${data.firstList.name},${data.secondList.name}`;
+          addressNames = data.thirdList ? `${data.firstList.name},${data.secondList.name},${data.thirdList.name}` : `${data.firstList.name},${data.secondList.name}`;
           this.addressNames = addressNames;
           this.addressShow = false;
         },
@@ -109,11 +118,18 @@
           this.showTime = data;
           this.date1Show = false;
         },
+        confirmGenderFn(data){
+          this.gender = data.firstList;
+          this.genderShow = false;
+        },
         cancelDateFn() {
           this.dateShow = false;
         },
-        cancelDate1Fn(){
+        cancelDate1Fn() {
           this.date1Show = false;
+        },
+        cancelGenderFn(){
+          this.genderShow = false;
         },
         getDate1Info() {
           this.date1Show = true;
@@ -122,7 +138,7 @@
         getDateInfo() {
           this.dateShow = true;
         },
-        getDateList(){
+        getDateList() {
           const data = [];
           for (let i = 2017; i <= 2028; i += 1) {
             const year = {};
@@ -148,11 +164,14 @@
         getAddressInfo() {
           this.addressShow = true;
         },
+        showGender() {
+          this.genderShow = true;
+        }
       },
       // beforeCreate(){
       //   this.getDateList();
       // },
-      created(){
+      created() {
         this.getDateList();
       },
       computed: {

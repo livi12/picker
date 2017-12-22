@@ -16,12 +16,12 @@
                                 <div class="item" :class="{on :index==pIndex}" v-for="(val,index) of pickList" :key="index">{{val[label].name || val.name}}</div>
                             </div>
                         </div>
-                        <div class="content-item"  v-picker.secondList="{set:set}" ref="secondList" :data-index="cIndex">
+                        <div class="content-item"  v-picker.secondList="{set:set}" ref="secondList" :data-index="cIndex" v-if="level==2 || level==3">
                             <div class="picker-item">
                                 <div class="item" :class="{on :index==cIndex}" v-for="(val,index) of secondList" :key="index">{{val[label].name|| val.name}}</div>
                             </div>
                         </div>
-                        <div class="content-item" v-picker.thirdList="{set:set}" ref="thirdList" :data-index="tIndex">
+                        <div class="content-item" v-picker.thirdList="{set:set}" ref="thirdList" :data-index="tIndex" v-if="level==3">
                             <div class="picker-item">
                                 <div class="item" :class="{on :index==tIndex}" v-for="(val,index) of thirdList" :key="index">{{val[label].name|| val.name}}</div>
                             </div>
@@ -65,7 +65,7 @@
         },
         level: {
           type: Number,
-          default: 1,
+          default: 3,
         },
       },
       data() {
@@ -93,7 +93,9 @@
         confirm() {
           const pramas = {};
           pramas.firstList = this.pickList[this.pIndex][this.label];
-          pramas.secondList = this.secondList[this.cIndex][this.label];
+          if (this.level === 2 || this.level === 3) {
+            pramas.secondList = this.secondList[this.cIndex][this.label];
+          }
           if (this.thirdList.length) {
             pramas.thirdList = this.thirdList[this.tIndex][this.label];
           }
@@ -118,27 +120,35 @@
           const secondList = this.pickerNames.split(this.dot)[1];
           const thirdList = this.pickerNames.split(this.dot)[2];
           for (let i = 0; i < this.pickList.length; i += 1) {
-            if ((typeof (this.pickList[i][this.label]) == 'object' && this.pickList[i][this.label].name == firstList) || (this.pickList[i][this.label] == firstList)) {
+            if ((typeof (this.pickList[i][this.label]) === 'object' && this.pickList[i][this.label].name == firstList) || (this.pickList[i][this.label] == firstList)) {
               this.pIndex = i;
               this.$refs.firstList.children[0].style.transform = `translateY(${-this.itemHeigth * this.pIndex}px)`;
               const secondLists = this.pickList[this.pIndex][this.listLabel];
-              for (let j = 0; j < secondLists.length; j += 1) {
-                if ((typeof (secondLists[j][this.label]) == 'object' && secondLists[j][this.label].name == secondList) || ( secondLists[j][this.label] == secondList)) {
-                  this.cIndex = j;
-                  this.$refs.secondList.children[0].style.transform = `translateY(${-this.itemHeigth * j}px)`;
-                  const thirdLists = secondLists[j][this.listLabel];
-                  for (let k = 0; k < thirdLists.length; k += 1) {
-                    if ((typeof (thirdLists[k][this.label]) == 'object' && thirdLists[k][this.label].name == thirdList) || (thirdLists[k][this.label] == thirdList)) {
-                      this.tIndex = k;
-                      this.$refs.thirdList.children[0].style.transform = `translateY(${-this.itemHeigth * k}px)`;
-                      setTimeout(() => { this.firstIn = false;}, 500);
-                      break;
-                    } else if( k == thirdLists.length -1){
-                      setTimeout(() => { this.firstIn = false;}, 500);
+              if (secondLists && secondLists.length && this.level == 2 && this.level == 3) {
+                for (let j = 0; j < secondLists.length; j += 1) {
+                  if ((typeof (secondLists[j][this.label]) === 'object' && secondLists[j][this.label].name == secondList) || (secondLists[j][this.label] == secondList)) {
+                    this.cIndex = j;
+                    this.$refs.secondList.children[0].style.transform = `translateY(${-this.itemHeigth * j}px)`;
+                    const thirdLists = secondLists[j][this.listLabel];
+                    if (thirdLists && thirdLists.length && this.level == 3) {
+                      for (let k = 0; k < thirdLists.length; k += 1) {
+                        if ((typeof (thirdLists[k][this.label]) === 'object' && thirdLists[k][this.label].name == thirdList) || (thirdLists[k][this.label] == thirdList)) {
+                          this.tIndex = k;
+                          this.$refs.thirdList.children[0].style.transform = `translateY(${-this.itemHeigth * k}px)`;
+                          setTimeout(() => { this.firstIn = false; }, 500);
+                          break;
+                        } else if (k == thirdLists.length - 1) {
+                          setTimeout(() => { this.firstIn = false; }, 500);
+                        }
+                      }
+                    } else {
+                      setTimeout(() => { this.firstIn = false; }, 500);
                     }
+                    break;
                   }
-                  break;
                 }
+              } else {
+                setTimeout(() => { this.firstIn = false; }, 500);
               }
               break;
             }
@@ -147,10 +157,16 @@
       },
       computed: {
         secondList() {
-          return this.pickList[this.pIndex][this.listLabel];
+          if (this.level === 2 || this.level === 3) {
+            return this.pickList[this.pIndex][this.listLabel];
+          }
+          return [];
         },
         thirdList() {
-          return this.pickList[this.pIndex][this.listLabel][this.cIndex][this.listLabel];
+          if (this.level === 3) {
+            return this.pickList[this.pIndex][this.listLabel][this.cIndex][this.listLabel];
+          }
+          return [];
         },
       },
       watch: {
@@ -158,13 +174,19 @@
           if (this.firstIn) { return; }
           this.cIndex = 0;
           this.tIndex = 0;
-          this.$refs.secondList.children[0].style.transform = 'translateY(0)';
-          this.$refs.thirdList.children[0].style.transform = 'translateY(0)';
+          if (this.level == 2 || this.level == 3) {
+            this.$refs.secondList.children[0].style.transform = 'translateY(0)';
+          }
+          if (this.level == 3) {
+            this.$refs.thirdList.children[0].style.transform = 'translateY(0)';
+          }
         },
         cIndex() {
           if (this.firstIn) { return; }
-          this.tIndex = 0;
-          this.$refs.thirdList.children[0].style.transform = 'translateY(0)';
+          if (this.level == 3) {
+            this.tIndex = 0;
+            this.$refs.thirdList.children[0].style.transform = 'translateY(0)';
+          }
         },
         pickerShow(val) {
           if (val) {
@@ -176,8 +198,11 @@
             this.cIndex = 0;
             this.tIndex = 0;
             this.$refs.firstList.children[0].style.transform = 'translateY(0)';
-            this.$refs.secondList.children[0].style.transform = 'translateY(0)';
-            this.$refs.thirdList.children[0].style.transform = 'translateY(0)';
+            if (this.level == 2 || this.level == 3) {
+              this.$refs.secondList.children[0].style.transform = 'translateY(0)';
+            } if (this.level == 3) {
+              this.$refs.thirdList.children[0].style.transform = 'translateY(0)';
+            }
           }
         },
       },
