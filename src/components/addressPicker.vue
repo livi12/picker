@@ -1,29 +1,29 @@
 <template>
-    <div class="address-box">
+    <div>
         <transition name="fade">
-            <div class="mask" :class="[addressShow?'show':'']" @click="cancel"></div>
+            <div class="mask" :class="[pickerShow?'show':'']" @click="cancel"></div>
         </transition>
         <transition name="animate">
-            <div class="picker"  :class="[addressShow?'show':'']">
+            <div class="picker"  :class="[pickerShow?'show':'']">
                 <div class="picker-head">
                     <div class="btn" @click="cancel">取消</div>
                     <div class="btn" @click="confirm">确定</div>
                 </div>
                 <div class="pick-box">
                     <div class="content" >
-                        <div class="content-item" v-picker.province="{set:set}" ref="province" :data-index="pIndex" >
-                            <div class="picker-item" >
-                                <div class="item" :class="{on :index==pIndex}" v-for="(val,index) of address" :data-code="val.area.code" :key="val.code">{{val.area.name}}</div>
+                        <div class="content-item" >
+                            <div class="picker-item"  v-picker.firstList="{set:set}" ref="firstList" :data-index="pIndex">
+                                <div class="item" :class="{on :index==pIndex}" v-for="(val,index) of pickList" :key="index">{{val[label].name || val.name}}</div>
                             </div>
                         </div>
-                        <div class="content-item"  v-picker.city="{set:set}" ref="city" :data-index="cIndex">
-                            <div class="picker-item">
-                                <div class="item" :class="{on :index==cIndex}" v-for="(val,index) of city" :data-code="val.area.code"  :key="val.code">{{val.area.name}}</div>
+                        <div class="content-item">
+                            <div class="picker-item"  v-picker.secondList="{set:set}" ref="secondList" :data-index="cIndex" v-if="level==2 || level==3">
+                                <div class="item" :class="{on :index==cIndex}" v-for="(val,index) of secondList" :key="index">{{val[label].name|| val.name}}</div>
                             </div>
                         </div>
-                        <div class="content-item" v-picker.town="{set:set}" ref="town" :data-index="tIndex">
-                            <div class="picker-item">
-                                <div class="item" :class="{on :index==tIndex}" v-for="(val,index) of town" :data-code="val.area.code"  :key="val.code">{{val.area.name}}</div>
+                        <div class="content-item">
+                            <div class="picker-item" v-picker.thirdList="{set:set}" ref="thirdList" :data-index="tIndex" v-if="level==3">
+                                <div class="item" :class="{on :index==tIndex}" v-for="(val,index) of thirdList" :key="index">{{val[label].name|| val.name}}</div>
                             </div>
                         </div>
                     </div>
@@ -34,21 +34,38 @@
     </div>
 </template>
 <script type="text/javascript">
-    import address from '@/util/addressData';
 
     export default {
-      name: 'addressPicker',
+      name: 'picker',
       props: {
-        addressNames: {
+        pickerNames: {
           type: String,
-          default: '浙江省,杭州市,余杭区',
         },
-        addressShow: {
+        pickerShow: {
           type: Boolean,
         },
         reset: {
           type: Boolean,
           default: false,
+        },
+        pickList: {
+          type: Array,
+        },
+        label: {
+          type: String,
+          default: 'name',
+        },
+        listLabel: {
+          type: String,
+          default: 'children',
+        },
+        dot: {
+          type: String,
+          default: ',',
+        },
+        level: {
+          type: Number,
+          default: 3,
         },
       },
       data() {
@@ -56,68 +73,95 @@
           pIndex: 0,
           cIndex: 0,
           tIndex: 0,
-          address,
           itemHeigth: 0,
+          firstIn: true,
         };
       },
       mounted() {
-        const dom = this.$refs.province.firstChild;
-        this.itemHeigth = Number.parseFloat(dom.firstChild.clientHeight);
+        this.firstIn = true;
+        const dom = this.$refs.firstList;
+        this.itemHeigth = dom.firstChild.clientHeight;
+        this.windowResize();
         // 不重置，将数据回填
         if (!this.reset) {
           this.getAddreessIndex();
+        } else {
+          this.firstIn = false;
         }
       },
       methods: {
         // 确定按钮
         confirm() {
           const pramas = {};
-          pramas.province = this.address[this.pIndex].area;
-          pramas.city = this.city[this.cIndex].area;
-          if (this.town.length) {
-            pramas.town = this.town[this.tIndex].area;
+          pramas.firstList = this.pickList[this.pIndex][this.label];
+          if (this.level === 2 || this.level === 3) {
+            pramas.secondList = this.secondList[this.cIndex][this.label];
           }
-          this.addressBoxShow = false;
+          if (this.thirdList.length) {
+            pramas.thirdList = this.thirdList[this.tIndex][this.label];
+          }
           this.$emit('confirmFn', pramas);
         },
         // 取消按钮
         cancel() {
           this.$emit('cancelFn');
         },
+        // 调整窗口大小
+        windowResize() {
+
+            console.log('windowResize  in 11');
+          window.addEventListener('resize', () => {
+            console.log('windowResize  in');
+
+            const dom = this.$refs.firstList;
+            this.itemHeigth = dom.firstChild.clientHeight;
+            console.log('windowResize  '+this.itemHeigth);
+          }, !1);
+        },
         set(name, index) {
-          if (name === 'province') {
+          if (name === 'firstList') {
             this.pIndex = index;
-          } else if (name === 'city') {
+          } else if (name === 'secondList') {
             this.cIndex = index;
           } else {
             this.tIndex = index;
           }
         },
-        // 有默认的地区信息
+        // 有默认的选择信息
         getAddreessIndex() {
-          const province = this.addressNames.split(',')[0];
-          const city = this.addressNames.split(',')[1];
-          const town = this.addressNames.split(',')[2];
-          for (let i = 0; i < this.address.length; i += 1) {
-            if (this.address[i].area.name === province) {
+          const firstList = this.pickerNames.split(this.dot)[0];
+          const secondList = this.pickerNames.split(this.dot)[1];
+          const thirdList = this.pickerNames.split(this.dot)[2];
+          for (let i = 0; i < this.pickList.length; i += 1) {
+            if ((typeof (this.pickList[i][this.label]) === 'object' && this.pickList[i][this.label].name == firstList) || (this.pickList[i][this.label] == firstList)) {
               this.pIndex = i;
-              this.$refs.province.children[0].style.transform = `translateY(${-this.itemHeigth * this.pIndex}px)`;
-              const citys = this.address[this.pIndex].children;
-              for (let j = 0; j < citys.length; j += 1) {
-                if (citys[j].area.name === city) {
-                  this.cIndex = j;
-                  this.$refs.city.children[0].style.transform = `translateY(${-this.itemHeigth * j}px)`;
-                  const towns = citys[j].children;
-                  for (let k = 0; k < towns.length; k += 1) {
-                    if (towns[k].area.name === town) {
-                      this.tIndex = k;
-                      this.$refs.town.children[0].style.transform = `translateY(${-this.itemHeigth * k}px)`;
-                      // 一秒后将值设为true，可以监听变化
-                      break;
+              this.$refs.firstList.style.transform = `translateY(${-this.itemHeigth * this.pIndex}px)`;
+              const secondLists = this.pickList[this.pIndex][this.listLabel];
+              if (secondLists && secondLists.length && this.level == 2 && this.level == 3) {
+                for (let j = 0; j < secondLists.length; j += 1) {
+                  if ((typeof (secondLists[j][this.label]) === 'object' && secondLists[j][this.label].name == secondList) || (secondLists[j][this.label] == secondList)) {
+                    this.cIndex = j;
+                    this.$refs.secondList.style.transform = `translateY(${-this.itemHeigth * j}px)`;
+                    const thirdLists = secondLists[j][this.listLabel];
+                    if (thirdLists && thirdLists.length && this.level == 3) {
+                      for (let k = 0; k < thirdLists.length; k += 1) {
+                        if ((typeof (thirdLists[k][this.label]) === 'object' && thirdLists[k][this.label].name == thirdList) || (thirdLists[k][this.label] == thirdList)) {
+                          this.tIndex = k;
+                          this.$refs.thirdList.style.transform = `translateY(${-this.itemHeigth * k}px)`;
+                          setTimeout(() => { this.firstIn = false; }, 500);
+                          break;
+                        } else if (k == thirdLists.length - 1) {
+                          setTimeout(() => { this.firstIn = false; }, 500);
+                        }
+                      }
+                    } else {
+                      setTimeout(() => { this.firstIn = false; }, 500);
                     }
+                    break;
                   }
-                  break;
                 }
+              } else {
+                setTimeout(() => { this.firstIn = false; }, 500);
               }
               break;
             }
@@ -125,41 +169,52 @@
         },
       },
       computed: {
-        city() {
-          return this.address[this.pIndex].children;
+        secondList() {
+          if (this.level === 2 || this.level === 3) {
+            return this.pickList[this.pIndex][this.listLabel];
+          }
+          return [];
         },
-        town() {
-          return this.address[this.pIndex].children[this.cIndex].children;
-        },
-        firstIn() {
-          return !this.addressShow;
+        thirdList() {
+          if (this.level === 3) {
+            return this.pickList[this.pIndex][this.listLabel][this.cIndex][this.listLabel];
+          }
+          return [];
         },
       },
       watch: {
         pIndex() {
-          if (!this.addressShow) { return; }
+          if (this.firstIn) { return; }
           this.cIndex = 0;
           this.tIndex = 0;
-          this.$refs.city.children[0].style.transform = 'translateY(0)';
-          this.$refs.town.children[0].style.transform = 'translateY(0)';
+          if (this.level == 2 || this.level == 3) {
+            this.$refs.secondList.style.transform = 'translateY(0)';
+          }
+          if (this.level == 3) {
+            this.$refs.thirdList.style.transform = 'translateY(0)';
+          }
         },
         cIndex() {
-          if (!this.addressShow) { return; }
-          this.tIndex = 0;
-          this.$refs.town.children[0].style.transform = 'translateY(0)';
+          if (this.firstIn) { return; }
+          if (this.level == 3) {
+            this.tIndex = 0;
+            this.$refs.thirdList.style.transform = 'translateY(0)';
+          }
         },
-        addressShow(val) {
+        pickerShow(val) {
           if (val) {
-            const dom = this.$refs.province.firstChild;
-            this.itemHeigth = Number.parseFloat(dom.firstChild.clientHeight);
-          } else {
-            if (this.reset) {
-              this.pIndex = 0;
-              this.cIndex = 0;
-              this.tIndex = 0;
-              this.$refs.province.children[0].style.transform = 'translateY(0)';
-              this.$refs.city.children[0].style.transform = 'translateY(0)';
-              this.$refs.town.children[0].style.transform = 'translateY(0)';
+            const dom = this.$refs.firstList;
+            this.itemHeigth = dom.firstChild.clientHeight;
+          } else if (this.reset) {
+            this.firstIn = true;
+            this.pIndex = 0;
+            this.cIndex = 0;
+            this.tIndex = 0;
+            this.$refs.firstList.style.transform = 'translateY(0)';
+            if (this.level == 2 || this.level == 3) {
+              this.$refs.secondList.style.transform = 'translateY(0)';
+            } if (this.level == 3) {
+              this.$refs.thirdList.style.transform = 'translateY(0)';
             }
           }
         },
@@ -170,7 +225,7 @@
             let startY = '';
             let differY = '';
             let currentY = 0;
-            const dom = el.children[0];
+            const dom = el;
             const len = dom.children.length;
             let index = 0;
             let maxY = -(len - 1);
@@ -178,7 +233,7 @@
             el.addEventListener('touchstart', (e) => {
               r = Number.parseFloat(dom.firstChild.clientHeight);
               e.preventDefault();
-              maxY = -(el.children[0].children.length - 1);
+              maxY = -(el.children.length - 1);
               if (dom.style.transform.indexOf('translateY(0px)') > -1) {
                 currentY = 0;
               } else {
@@ -209,12 +264,12 @@
               }
               dom.style.transform = `translateY(${currentY * r}px)`;
               index = Math.floor(Math.abs(currentY / 1));// 记录当前位移在数组中的索引,必须取整，否则会出现浮点数
-              if (binding.modifiers.province) {
-                name = 'province';
-              } else if (binding.modifiers.city) {
-                name = 'city';
-              } else if (binding.modifiers.town) {
-                name = 'town';
+              if (binding.modifiers.firstList) {
+                name = 'firstList';
+              } else if (binding.modifiers.secondList) {
+                name = 'secondList';
+              } else if (binding.modifiers.thirdList) {
+                name = 'thirdList';
               }
               binding.value.set(name, index);
             });
@@ -293,6 +348,8 @@
                         white-space: nowrap;
                         text-align: center;
                         font-size: (36rem/$font-base-size);
+                        padding: 0;
+                        margin: 0;
                     }
                     & .on{
                         color: #333333;

@@ -1,4 +1,4 @@
-export default [
+export default[
   {
     area: {
       code: 110000,
@@ -134,18 +134,18 @@ export default [
           },
           {
             area: {
-              code: 110117,
+              code: 110118,
               level: 3,
-              name: '平谷区',
+              name: '密云区',
               pid: 110100,
             },
             children: [],
           },
           {
             area: {
-              code: 110118,
+              code: 110117,
               level: 3,
-              name: '密云区',
+              name: '平谷区',
               pid: 110100,
             },
             children: [],
@@ -345,15 +345,6 @@ export default [
         children: [
           {
             area: {
-              code: 130101,
-              level: 3,
-              name: '市辖区',
-              pid: 130100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 130102,
               level: 3,
               name: '长安区',
@@ -525,8 +516,17 @@ export default [
           },
           {
             area: {
+              code: 130181,
+              level: 2,
+              name: '辛集市',
+              pid: 130100,
+            },
+            children: [],
+          },
+          {
+            area: {
               code: 130183,
-              level: 3,
+              level: 2,
               name: '晋州市',
               pid: 130100,
             },
@@ -535,7 +535,7 @@ export default [
           {
             area: {
               code: 130184,
-              level: 3,
+              level: 2,
               name: '新乐市',
               pid: 130100,
             },
@@ -551,15 +551,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 130201,
-              level: 3,
-              name: '市辖区',
-              pid: 130200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 130202,
@@ -671,7 +662,7 @@ export default [
           {
             area: {
               code: 130281,
-              level: 3,
+              level: 2,
               name: '遵化市',
               pid: 130200,
             },
@@ -680,7 +671,7 @@ export default [
           {
             area: {
               code: 130283,
-              level: 3,
+              level: 2,
               name: '迁安市',
               pid: 130200,
             },
@@ -696,15 +687,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 130301,
-              level: 3,
-              name: '市辖区',
-              pid: 130300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 130302,
@@ -780,15 +762,6 @@ export default [
         children: [
           {
             area: {
-              code: 130401,
-              level: 3,
-              name: '市辖区',
-              pid: 130400,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 130402,
               level: 3,
               name: '邯山区',
@@ -819,15 +792,6 @@ export default [
               code: 130406,
               level: 3,
               name: '峰峰矿区',
-              pid: 130400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 130421,
-              level: 3,
-              name: '邯郸县',
               pid: 130400,
             },
             children: [],
@@ -881,7 +845,7 @@ export default [
             area: {
               code: 130428,
               level: 3,
-              name: '肥乡县',
+              name: '肥乡区',
               pid: 130400,
             },
             children: [],
@@ -890,7 +854,7 @@ export default [
             area: {
               code: 130429,
               level: 3,
-              name: '永年县',
+              name: '永年区',
               pid: 130400,
             },
             children: [],
@@ -952,7 +916,7 @@ export default [
           {
             area: {
               code: 130481,
-              level: 3,
+              level: 2,
               name: '武安市',
               pid: 130400,
             },
@@ -968,15 +932,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 130501,
-              level: 3,
-              name: '市辖区',
-              pid: 130500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 130502,
@@ -1133,7 +1088,7 @@ export default [
           {
             area: {
               code: 130581,
-              level: 3,
+              level: 2,
               name: '南宫市',
               pid: 130500,
             },
@@ -1142,7 +1097,7 @@ export default [
           {
             area: {
               code: 130582,
-              level: 3,
+              level: 2,
               name: '沙河市',
               pid: 130500,
             },
@@ -1158,15 +1113,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 130601,
-              level: 3,
-              name: '市辖区',
-              pid: 130600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 130602,
@@ -1350,7 +1296,7 @@ export default [
           {
             area: {
               code: 130681,
-              level: 3,
+              level: 2,
               name: '涿州市',
               pid: 130600,
             },
@@ -1358,8 +1304,17 @@ export default [
           },
           {
             area: {
+              code: 130682,
+              level: 2,
+              name: '定州市',
+              pid: 130600,
+            },
+            children: [],
+          },
+          {
+            area: {
               code: 130683,
-              level: 3,
+              level: 2,
               name: '安国市',
               pid: 130600,
             },
@@ -1368,7 +1323,7 @@ export default [
           {
             area: {
               code: 130684,
-              level: 3,
+              level: 2,
               name: '高碑店市',
               pid: 130600,
             },
@@ -1384,15 +1339,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 130701,
-              level: 3,
-              name: '市辖区',
-              pid: 130700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 130702,
@@ -1549,15 +1495,6 @@ export default [
         children: [
           {
             area: {
-              code: 130801,
-              level: 3,
-              name: '市辖区',
-              pid: 130800,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 130802,
               level: 3,
               name: '双桥区',
@@ -1665,15 +1602,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 130901,
-              level: 3,
-              name: '市辖区',
-              pid: 130900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 130902,
@@ -1785,7 +1713,7 @@ export default [
           {
             area: {
               code: 130981,
-              level: 3,
+              level: 2,
               name: '泊头市',
               pid: 130900,
             },
@@ -1794,7 +1722,7 @@ export default [
           {
             area: {
               code: 130982,
-              level: 3,
+              level: 2,
               name: '任丘市',
               pid: 130900,
             },
@@ -1803,7 +1731,7 @@ export default [
           {
             area: {
               code: 130983,
-              level: 3,
+              level: 2,
               name: '黄骅市',
               pid: 130900,
             },
@@ -1812,7 +1740,7 @@ export default [
           {
             area: {
               code: 130984,
-              level: 3,
+              level: 2,
               name: '河间市',
               pid: 130900,
             },
@@ -1828,15 +1756,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 131001,
-              level: 3,
-              name: '市辖区',
-              pid: 131000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 131002,
@@ -1912,7 +1831,7 @@ export default [
           {
             area: {
               code: 131081,
-              level: 3,
+              level: 2,
               name: '霸州市',
               pid: 131000,
             },
@@ -1921,7 +1840,7 @@ export default [
           {
             area: {
               code: 131082,
-              level: 3,
+              level: 2,
               name: '三河市',
               pid: 131000,
             },
@@ -1937,15 +1856,6 @@ export default [
           pid: 130000,
         },
         children: [
-          {
-            area: {
-              code: 131101,
-              level: 3,
-              name: '市辖区',
-              pid: 131100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 131102,
@@ -2039,37 +1949,9 @@ export default [
           {
             area: {
               code: 131182,
-              level: 3,
+              level: 2,
               name: '深州市',
               pid: 131100,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 139000,
-          level: 2,
-          name: '省直辖县级行政区划',
-          pid: 130000,
-        },
-        children: [
-          {
-            area: {
-              code: 139001,
-              level: 3,
-              name: '定州市',
-              pid: 139000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 139002,
-              level: 3,
-              name: '辛集市',
-              pid: 139000,
             },
             children: [],
           },
@@ -2093,15 +1975,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140101,
-              level: 3,
-              name: '市辖区',
-              pid: 140100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140105,
@@ -2186,7 +2059,7 @@ export default [
           {
             area: {
               code: 140181,
-              level: 3,
+              level: 2,
               name: '古交市',
               pid: 140100,
             },
@@ -2202,15 +2075,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140201,
-              level: 3,
-              name: '市辖区',
-              pid: 140200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140202,
@@ -2322,15 +2186,6 @@ export default [
         children: [
           {
             area: {
-              code: 140301,
-              level: 3,
-              name: '市辖区',
-              pid: 140300,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 140302,
               level: 3,
               name: '城区',
@@ -2384,15 +2239,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140401,
-              level: 3,
-              name: '市辖区',
-              pid: 140400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140402,
@@ -2504,7 +2350,7 @@ export default [
           {
             area: {
               code: 140481,
-              level: 3,
+              level: 2,
               name: '潞城市',
               pid: 140400,
             },
@@ -2520,15 +2366,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140501,
-              level: 3,
-              name: '市辖区',
-              pid: 140500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140502,
@@ -2577,7 +2414,7 @@ export default [
           {
             area: {
               code: 140581,
-              level: 3,
+              level: 2,
               name: '高平市',
               pid: 140500,
             },
@@ -2593,15 +2430,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140601,
-              level: 3,
-              name: '市辖区',
-              pid: 140600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140602,
@@ -2666,15 +2494,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140701,
-              level: 3,
-              name: '市辖区',
-              pid: 140700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140702,
@@ -2768,7 +2587,7 @@ export default [
           {
             area: {
               code: 140781,
-              level: 3,
+              level: 2,
               name: '介休市',
               pid: 140700,
             },
@@ -2784,15 +2603,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140801,
-              level: 3,
-              name: '市辖区',
-              pid: 140800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140802,
@@ -2895,7 +2705,7 @@ export default [
           {
             area: {
               code: 140881,
-              level: 3,
+              level: 2,
               name: '永济市',
               pid: 140800,
             },
@@ -2904,7 +2714,7 @@ export default [
           {
             area: {
               code: 140882,
-              level: 3,
+              level: 2,
               name: '河津市',
               pid: 140800,
             },
@@ -2920,15 +2730,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 140901,
-              level: 3,
-              name: '市辖区',
-              pid: 140900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 140902,
@@ -3049,7 +2850,7 @@ export default [
           {
             area: {
               code: 140981,
-              level: 3,
+              level: 2,
               name: '原平市',
               pid: 140900,
             },
@@ -3065,15 +2866,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 141001,
-              level: 3,
-              name: '市辖区',
-              pid: 141000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 141002,
@@ -3212,7 +3004,7 @@ export default [
           {
             area: {
               code: 141081,
-              level: 3,
+              level: 2,
               name: '侯马市',
               pid: 141000,
             },
@@ -3221,7 +3013,7 @@ export default [
           {
             area: {
               code: 141082,
-              level: 3,
+              level: 2,
               name: '霍州市',
               pid: 141000,
             },
@@ -3237,15 +3029,6 @@ export default [
           pid: 140000,
         },
         children: [
-          {
-            area: {
-              code: 141101,
-              level: 3,
-              name: '市辖区',
-              pid: 141100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 141102,
@@ -3348,7 +3131,7 @@ export default [
           {
             area: {
               code: 141181,
-              level: 3,
+              level: 2,
               name: '孝义市',
               pid: 141100,
             },
@@ -3357,7 +3140,7 @@ export default [
           {
             area: {
               code: 141182,
-              level: 3,
+              level: 2,
               name: '汾阳市',
               pid: 141100,
             },
@@ -3383,15 +3166,6 @@ export default [
           pid: 150000,
         },
         children: [
-          {
-            area: {
-              code: 150101,
-              level: 3,
-              name: '市辖区',
-              pid: 150100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 150102,
@@ -3485,15 +3259,6 @@ export default [
         children: [
           {
             area: {
-              code: 150201,
-              level: 3,
-              name: '市辖区',
-              pid: 150200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 150202,
               level: 3,
               name: '东河区',
@@ -3585,15 +3350,6 @@ export default [
         children: [
           {
             area: {
-              code: 150301,
-              level: 3,
-              name: '市辖区',
-              pid: 150300,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 150302,
               level: 3,
               name: '海勃湾区',
@@ -3629,15 +3385,6 @@ export default [
           pid: 150000,
         },
         children: [
-          {
-            area: {
-              code: 150401,
-              level: 3,
-              name: '市辖区',
-              pid: 150400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 150402,
@@ -3758,15 +3505,6 @@ export default [
         children: [
           {
             area: {
-              code: 150501,
-              level: 3,
-              name: '市辖区',
-              pid: 150500,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 150502,
               level: 3,
               name: '科尔沁区',
@@ -3831,7 +3569,7 @@ export default [
           {
             area: {
               code: 150581,
-              level: 3,
+              level: 2,
               name: '霍林郭勒市',
               pid: 150500,
             },
@@ -3847,15 +3585,6 @@ export default [
           pid: 150000,
         },
         children: [
-          {
-            area: {
-              code: 150601,
-              level: 3,
-              name: '市辖区',
-              pid: 150600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 150602,
@@ -3949,15 +3678,6 @@ export default [
         children: [
           {
             area: {
-              code: 150701,
-              level: 3,
-              name: '市辖区',
-              pid: 150700,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 150702,
               level: 3,
               name: '海拉尔区',
@@ -4040,7 +3760,7 @@ export default [
           {
             area: {
               code: 150781,
-              level: 3,
+              level: 2,
               name: '满洲里市',
               pid: 150700,
             },
@@ -4049,7 +3769,7 @@ export default [
           {
             area: {
               code: 150782,
-              level: 3,
+              level: 2,
               name: '牙克石市',
               pid: 150700,
             },
@@ -4058,7 +3778,7 @@ export default [
           {
             area: {
               code: 150783,
-              level: 3,
+              level: 2,
               name: '扎兰屯市',
               pid: 150700,
             },
@@ -4067,7 +3787,7 @@ export default [
           {
             area: {
               code: 150784,
-              level: 3,
+              level: 2,
               name: '额尔古纳市',
               pid: 150700,
             },
@@ -4076,7 +3796,7 @@ export default [
           {
             area: {
               code: 150785,
-              level: 3,
+              level: 2,
               name: '根河市',
               pid: 150700,
             },
@@ -4092,15 +3812,6 @@ export default [
           pid: 150000,
         },
         children: [
-          {
-            area: {
-              code: 150801,
-              level: 3,
-              name: '市辖区',
-              pid: 150800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 150802,
@@ -4174,15 +3885,6 @@ export default [
           pid: 150000,
         },
         children: [
-          {
-            area: {
-              code: 150901,
-              level: 3,
-              name: '市辖区',
-              pid: 150900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 150902,
@@ -4276,7 +3978,7 @@ export default [
           {
             area: {
               code: 150981,
-              level: 3,
+              level: 2,
               name: '丰镇市',
               pid: 150900,
             },
@@ -4295,7 +3997,7 @@ export default [
           {
             area: {
               code: 152201,
-              level: 3,
+              level: 2,
               name: '乌兰浩特市',
               pid: 152200,
             },
@@ -4304,7 +4006,7 @@ export default [
           {
             area: {
               code: 152202,
-              level: 3,
+              level: 2,
               name: '阿尔山市',
               pid: 152200,
             },
@@ -4359,7 +4061,7 @@ export default [
           {
             area: {
               code: 152501,
-              level: 3,
+              level: 2,
               name: '二连浩特市',
               pid: 152500,
             },
@@ -4368,7 +4070,7 @@ export default [
           {
             area: {
               code: 152502,
-              level: 3,
+              level: 2,
               name: '锡林浩特市',
               pid: 152500,
             },
@@ -4523,15 +4225,6 @@ export default [
         children: [
           {
             area: {
-              code: 210101,
-              level: 3,
-              name: '市辖区',
-              pid: 210100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 210102,
               level: 3,
               name: '和平区',
@@ -4641,7 +4334,7 @@ export default [
           {
             area: {
               code: 210181,
-              level: 3,
+              level: 2,
               name: '新民市',
               pid: 210100,
             },
@@ -4657,15 +4350,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 210201,
-              level: 3,
-              name: '市辖区',
-              pid: 210200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 210202,
@@ -4741,7 +4425,7 @@ export default [
           {
             area: {
               code: 210281,
-              level: 3,
+              level: 2,
               name: '瓦房店市',
               pid: 210200,
             },
@@ -4750,7 +4434,7 @@ export default [
           {
             area: {
               code: 210283,
-              level: 3,
+              level: 2,
               name: '庄河市',
               pid: 210200,
             },
@@ -4766,15 +4450,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 210301,
-              level: 3,
-              name: '市辖区',
-              pid: 210300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 210302,
@@ -4832,7 +4507,7 @@ export default [
           {
             area: {
               code: 210381,
-              level: 3,
+              level: 2,
               name: '海城市',
               pid: 210300,
             },
@@ -4848,15 +4523,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 210401,
-              level: 3,
-              name: '市辖区',
-              pid: 210400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 210402,
@@ -4932,15 +4598,6 @@ export default [
         children: [
           {
             area: {
-              code: 210501,
-              level: 3,
-              name: '市辖区',
-              pid: 210500,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 210502,
               level: 3,
               name: '平山区',
@@ -5005,15 +4662,6 @@ export default [
         children: [
           {
             area: {
-              code: 210601,
-              level: 3,
-              name: '市辖区',
-              pid: 210600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 210602,
               level: 3,
               name: '元宝区',
@@ -5051,7 +4699,7 @@ export default [
           {
             area: {
               code: 210681,
-              level: 3,
+              level: 2,
               name: '东港市',
               pid: 210600,
             },
@@ -5060,7 +4708,7 @@ export default [
           {
             area: {
               code: 210682,
-              level: 3,
+              level: 2,
               name: '凤城市',
               pid: 210600,
             },
@@ -5076,15 +4724,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 210701,
-              level: 3,
-              name: '市辖区',
-              pid: 210700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 210702,
@@ -5133,7 +4772,7 @@ export default [
           {
             area: {
               code: 210781,
-              level: 3,
+              level: 2,
               name: '凌海市',
               pid: 210700,
             },
@@ -5142,7 +4781,7 @@ export default [
           {
             area: {
               code: 210782,
-              level: 3,
+              level: 2,
               name: '北镇市',
               pid: 210700,
             },
@@ -5158,15 +4797,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 210801,
-              level: 3,
-              name: '市辖区',
-              pid: 210800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 210802,
@@ -5206,7 +4836,7 @@ export default [
           {
             area: {
               code: 210881,
-              level: 3,
+              level: 2,
               name: '盖州市',
               pid: 210800,
             },
@@ -5215,7 +4845,7 @@ export default [
           {
             area: {
               code: 210882,
-              level: 3,
+              level: 2,
               name: '大石桥市',
               pid: 210800,
             },
@@ -5231,15 +4861,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 210901,
-              level: 3,
-              name: '市辖区',
-              pid: 210900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 210902,
@@ -5315,15 +4936,6 @@ export default [
         children: [
           {
             area: {
-              code: 211001,
-              level: 3,
-              name: '市辖区',
-              pid: 211000,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 211002,
               level: 3,
               name: '白塔区',
@@ -5379,7 +4991,7 @@ export default [
           {
             area: {
               code: 211081,
-              level: 3,
+              level: 2,
               name: '灯塔市',
               pid: 211000,
             },
@@ -5395,15 +5007,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 211101,
-              level: 3,
-              name: '市辖区',
-              pid: 211100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 211102,
@@ -5452,15 +5055,6 @@ export default [
         children: [
           {
             area: {
-              code: 211201,
-              level: 3,
-              name: '市辖区',
-              pid: 211200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 211202,
               level: 3,
               name: '银州区',
@@ -5507,7 +5101,7 @@ export default [
           {
             area: {
               code: 211281,
-              level: 3,
+              level: 2,
               name: '调兵山市',
               pid: 211200,
             },
@@ -5516,7 +5110,7 @@ export default [
           {
             area: {
               code: 211282,
-              level: 3,
+              level: 2,
               name: '开原市',
               pid: 211200,
             },
@@ -5532,15 +5126,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 211301,
-              level: 3,
-              name: '市辖区',
-              pid: 211300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 211302,
@@ -5589,7 +5174,7 @@ export default [
           {
             area: {
               code: 211381,
-              level: 3,
+              level: 2,
               name: '北票市',
               pid: 211300,
             },
@@ -5598,7 +5183,7 @@ export default [
           {
             area: {
               code: 211382,
-              level: 3,
+              level: 2,
               name: '凌源市',
               pid: 211300,
             },
@@ -5614,15 +5199,6 @@ export default [
           pid: 210000,
         },
         children: [
-          {
-            area: {
-              code: 211401,
-              level: 3,
-              name: '市辖区',
-              pid: 211400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 211402,
@@ -5671,7 +5247,7 @@ export default [
           {
             area: {
               code: 211481,
-              level: 3,
+              level: 2,
               name: '兴城市',
               pid: 211400,
             },
@@ -5697,15 +5273,6 @@ export default [
           pid: 220000,
         },
         children: [
-          {
-            area: {
-              code: 220101,
-              level: 3,
-              name: '市辖区',
-              pid: 220100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 220102,
@@ -5781,7 +5348,7 @@ export default [
           {
             area: {
               code: 220182,
-              level: 3,
+              level: 2,
               name: '榆树市',
               pid: 220100,
             },
@@ -5790,7 +5357,7 @@ export default [
           {
             area: {
               code: 220183,
-              level: 3,
+              level: 2,
               name: '德惠市',
               pid: 220100,
             },
@@ -5806,15 +5373,6 @@ export default [
           pid: 220000,
         },
         children: [
-          {
-            area: {
-              code: 220201,
-              level: 3,
-              name: '市辖区',
-              pid: 220200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 220202,
@@ -5863,7 +5421,7 @@ export default [
           {
             area: {
               code: 220281,
-              level: 3,
+              level: 2,
               name: '蛟河市',
               pid: 220200,
             },
@@ -5872,7 +5430,7 @@ export default [
           {
             area: {
               code: 220282,
-              level: 3,
+              level: 2,
               name: '桦甸市',
               pid: 220200,
             },
@@ -5881,7 +5439,7 @@ export default [
           {
             area: {
               code: 220283,
-              level: 3,
+              level: 2,
               name: '舒兰市',
               pid: 220200,
             },
@@ -5890,7 +5448,7 @@ export default [
           {
             area: {
               code: 220284,
-              level: 3,
+              level: 2,
               name: '磐石市',
               pid: 220200,
             },
@@ -5906,15 +5464,6 @@ export default [
           pid: 220000,
         },
         children: [
-          {
-            area: {
-              code: 220301,
-              level: 3,
-              name: '市辖区',
-              pid: 220300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 220302,
@@ -5954,7 +5503,7 @@ export default [
           {
             area: {
               code: 220381,
-              level: 3,
+              level: 2,
               name: '公主岭市',
               pid: 220300,
             },
@@ -5963,7 +5512,7 @@ export default [
           {
             area: {
               code: 220382,
-              level: 3,
+              level: 2,
               name: '双辽市',
               pid: 220300,
             },
@@ -5979,15 +5528,6 @@ export default [
           pid: 220000,
         },
         children: [
-          {
-            area: {
-              code: 220401,
-              level: 3,
-              name: '市辖区',
-              pid: 220400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 220402,
@@ -6036,15 +5576,6 @@ export default [
         children: [
           {
             area: {
-              code: 220501,
-              level: 3,
-              name: '市辖区',
-              pid: 220500,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 220502,
               level: 3,
               name: '东昌区',
@@ -6091,7 +5622,7 @@ export default [
           {
             area: {
               code: 220581,
-              level: 3,
+              level: 2,
               name: '梅河口市',
               pid: 220500,
             },
@@ -6100,7 +5631,7 @@ export default [
           {
             area: {
               code: 220582,
-              level: 3,
+              level: 2,
               name: '集安市',
               pid: 220500,
             },
@@ -6116,15 +5647,6 @@ export default [
           pid: 220000,
         },
         children: [
-          {
-            area: {
-              code: 220601,
-              level: 3,
-              name: '市辖区',
-              pid: 220600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 220602,
@@ -6173,7 +5695,7 @@ export default [
           {
             area: {
               code: 220681,
-              level: 3,
+              level: 2,
               name: '临江市',
               pid: 220600,
             },
@@ -6189,15 +5711,6 @@ export default [
           pid: 220000,
         },
         children: [
-          {
-            area: {
-              code: 220701,
-              level: 3,
-              name: '市辖区',
-              pid: 220700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 220702,
@@ -6237,7 +5750,7 @@ export default [
           {
             area: {
               code: 220781,
-              level: 3,
+              level: 2,
               name: '扶余市',
               pid: 220700,
             },
@@ -6253,15 +5766,6 @@ export default [
           pid: 220000,
         },
         children: [
-          {
-            area: {
-              code: 220801,
-              level: 3,
-              name: '市辖区',
-              pid: 220800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 220802,
@@ -6292,7 +5796,7 @@ export default [
           {
             area: {
               code: 220881,
-              level: 3,
+              level: 2,
               name: '洮南市',
               pid: 220800,
             },
@@ -6301,7 +5805,7 @@ export default [
           {
             area: {
               code: 220882,
-              level: 3,
+              level: 2,
               name: '大安市',
               pid: 220800,
             },
@@ -6320,7 +5824,7 @@ export default [
           {
             area: {
               code: 222401,
-              level: 3,
+              level: 2,
               name: '延吉市',
               pid: 222400,
             },
@@ -6329,7 +5833,7 @@ export default [
           {
             area: {
               code: 222402,
-              level: 3,
+              level: 2,
               name: '图们市',
               pid: 222400,
             },
@@ -6338,7 +5842,7 @@ export default [
           {
             area: {
               code: 222403,
-              level: 3,
+              level: 2,
               name: '敦化市',
               pid: 222400,
             },
@@ -6347,7 +5851,7 @@ export default [
           {
             area: {
               code: 222404,
-              level: 3,
+              level: 2,
               name: '珲春市',
               pid: 222400,
             },
@@ -6356,7 +5860,7 @@ export default [
           {
             area: {
               code: 222405,
-              level: 3,
+              level: 2,
               name: '龙井市',
               pid: 222400,
             },
@@ -6365,7 +5869,7 @@ export default [
           {
             area: {
               code: 222406,
-              level: 3,
+              level: 2,
               name: '和龙市',
               pid: 222400,
             },
@@ -6409,15 +5913,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 230101,
-              level: 3,
-              name: '市辖区',
-              pid: 230100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 230102,
@@ -6565,7 +6060,7 @@ export default [
           {
             area: {
               code: 230183,
-              level: 3,
+              level: 2,
               name: '尚志市',
               pid: 230100,
             },
@@ -6574,7 +6069,7 @@ export default [
           {
             area: {
               code: 230184,
-              level: 3,
+              level: 2,
               name: '五常市',
               pid: 230100,
             },
@@ -6590,15 +6085,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 230201,
-              level: 3,
-              name: '市辖区',
-              pid: 230200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 230202,
@@ -6737,7 +6223,7 @@ export default [
           {
             area: {
               code: 230281,
-              level: 3,
+              level: 2,
               name: '讷河市',
               pid: 230200,
             },
@@ -6753,15 +6239,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 230301,
-              level: 3,
-              name: '市辖区',
-              pid: 230300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 230302,
@@ -6828,7 +6305,7 @@ export default [
           {
             area: {
               code: 230381,
-              level: 3,
+              level: 2,
               name: '虎林市',
               pid: 230300,
             },
@@ -6837,7 +6314,7 @@ export default [
           {
             area: {
               code: 230382,
-              level: 3,
+              level: 2,
               name: '密山市',
               pid: 230300,
             },
@@ -6853,15 +6330,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 230401,
-              level: 3,
-              name: '市辖区',
-              pid: 230400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 230402,
@@ -6946,15 +6414,6 @@ export default [
         children: [
           {
             area: {
-              code: 230501,
-              level: 3,
-              name: '市辖区',
-              pid: 230500,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 230502,
               level: 3,
               name: '尖山区',
@@ -7035,15 +6494,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 230601,
-              level: 3,
-              name: '市辖区',
-              pid: 230600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 230602,
@@ -7135,15 +6585,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 230701,
-              level: 3,
-              name: '市辖区',
-              pid: 230700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 230702,
@@ -7291,7 +6732,7 @@ export default [
           {
             area: {
               code: 230781,
-              level: 3,
+              level: 2,
               name: '铁力市',
               pid: 230700,
             },
@@ -7307,15 +6748,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 230801,
-              level: 3,
-              name: '市辖区',
-              pid: 230800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 230803,
@@ -7382,7 +6814,7 @@ export default [
           {
             area: {
               code: 230881,
-              level: 3,
+              level: 2,
               name: '同江市',
               pid: 230800,
             },
@@ -7391,7 +6823,7 @@ export default [
           {
             area: {
               code: 230882,
-              level: 3,
+              level: 2,
               name: '富锦市',
               pid: 230800,
             },
@@ -7400,7 +6832,7 @@ export default [
           {
             area: {
               code: 230883,
-              level: 3,
+              level: 2,
               name: '抚远市',
               pid: 230800,
             },
@@ -7415,53 +6847,7 @@ export default [
           name: '七台河市',
           pid: 230000,
         },
-        children: [
-          {
-            area: {
-              code: 230901,
-              level: 3,
-              name: '市辖区',
-              pid: 230900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 230902,
-              level: 3,
-              name: '新兴区',
-              pid: 230900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 230903,
-              level: 3,
-              name: '桃山区',
-              pid: 230900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 230904,
-              level: 3,
-              name: '茄子河区',
-              pid: 230900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 230921,
-              level: 3,
-              name: '勃利县',
-              pid: 230900,
-            },
-            children: [],
-          },
-        ],
+        children: [],
       },
       {
         area: {
@@ -7471,15 +6857,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 231001,
-              level: 3,
-              name: '市辖区',
-              pid: 231000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 231002,
@@ -7528,7 +6905,7 @@ export default [
           {
             area: {
               code: 231081,
-              level: 3,
+              level: 2,
               name: '绥芬河市',
               pid: 231000,
             },
@@ -7537,7 +6914,7 @@ export default [
           {
             area: {
               code: 231083,
-              level: 3,
+              level: 2,
               name: '海林市',
               pid: 231000,
             },
@@ -7546,7 +6923,7 @@ export default [
           {
             area: {
               code: 231084,
-              level: 3,
+              level: 2,
               name: '宁安市',
               pid: 231000,
             },
@@ -7555,7 +6932,7 @@ export default [
           {
             area: {
               code: 231085,
-              level: 3,
+              level: 2,
               name: '穆棱市',
               pid: 231000,
             },
@@ -7564,7 +6941,7 @@ export default [
           {
             area: {
               code: 231086,
-              level: 3,
+              level: 2,
               name: '东宁市',
               pid: 231000,
             },
@@ -7580,15 +6957,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 231101,
-              level: 3,
-              name: '市辖区',
-              pid: 231100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 231102,
@@ -7628,7 +6996,7 @@ export default [
           {
             area: {
               code: 231181,
-              level: 3,
+              level: 2,
               name: '北安市',
               pid: 231100,
             },
@@ -7637,7 +7005,7 @@ export default [
           {
             area: {
               code: 231182,
-              level: 3,
+              level: 2,
               name: '五大连池市',
               pid: 231100,
             },
@@ -7653,15 +7021,6 @@ export default [
           pid: 230000,
         },
         children: [
-          {
-            area: {
-              code: 231201,
-              level: 3,
-              name: '市辖区',
-              pid: 231200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 231202,
@@ -7728,7 +7087,7 @@ export default [
           {
             area: {
               code: 231281,
-              level: 3,
+              level: 2,
               name: '安达市',
               pid: 231200,
             },
@@ -7737,7 +7096,7 @@ export default [
           {
             area: {
               code: 231282,
-              level: 3,
+              level: 2,
               name: '肇东市',
               pid: 231200,
             },
@@ -7746,7 +7105,7 @@ export default [
           {
             area: {
               code: 231283,
-              level: 3,
+              level: 2,
               name: '海伦市',
               pid: 231200,
             },
@@ -7762,6 +7121,15 @@ export default [
           pid: 230000,
         },
         children: [
+          {
+            area: {
+              code: 232701,
+              level: 3,
+              name: '加格达奇区',
+              pid: 232700,
+            },
+            children: [],
+          },
           {
             area: {
               code: 232721,
@@ -7790,6 +7158,42 @@ export default [
             children: [],
           },
         ],
+      },
+      {
+        area: {
+          code: 230902,
+          level: 3,
+          name: '新兴区',
+          pid: 230000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 230903,
+          level: 3,
+          name: '桃山区',
+          pid: 230000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 230904,
+          level: 3,
+          name: '茄子河区',
+          pid: 230000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 230921,
+          level: 3,
+          name: '勃利县',
+          pid: 230000,
+        },
+        children: [],
       },
     ],
   },
@@ -7975,15 +7379,6 @@ export default [
         children: [
           {
             area: {
-              code: 320101,
-              level: 3,
-              name: '市辖区',
-              pid: 320100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 320102,
               level: 3,
               name: '玄武区',
@@ -8093,15 +7488,6 @@ export default [
         children: [
           {
             area: {
-              code: 320201,
-              level: 3,
-              name: '市辖区',
-              pid: 320200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 320205,
               level: 3,
               name: '锡山区',
@@ -8148,7 +7534,7 @@ export default [
           {
             area: {
               code: 320281,
-              level: 3,
+              level: 2,
               name: '江阴市',
               pid: 320200,
             },
@@ -8157,7 +7543,7 @@ export default [
           {
             area: {
               code: 320282,
-              level: 3,
+              level: 2,
               name: '宜兴市',
               pid: 320200,
             },
@@ -8173,15 +7559,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 320301,
-              level: 3,
-              name: '市辖区',
-              pid: 320300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 320302,
@@ -8257,7 +7634,7 @@ export default [
           {
             area: {
               code: 320381,
-              level: 3,
+              level: 2,
               name: '新沂市',
               pid: 320300,
             },
@@ -8266,7 +7643,7 @@ export default [
           {
             area: {
               code: 320382,
-              level: 3,
+              level: 2,
               name: '邳州市',
               pid: 320300,
             },
@@ -8282,15 +7659,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 320401,
-              level: 3,
-              name: '市辖区',
-              pid: 320400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 320402,
@@ -8339,7 +7707,7 @@ export default [
           {
             area: {
               code: 320481,
-              level: 3,
+              level: 2,
               name: '溧阳市',
               pid: 320400,
             },
@@ -8355,15 +7723,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 320501,
-              level: 3,
-              name: '市辖区',
-              pid: 320500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 320505,
@@ -8412,7 +7771,7 @@ export default [
           {
             area: {
               code: 320581,
-              level: 3,
+              level: 2,
               name: '常熟市',
               pid: 320500,
             },
@@ -8421,7 +7780,7 @@ export default [
           {
             area: {
               code: 320582,
-              level: 3,
+              level: 2,
               name: '张家港市',
               pid: 320500,
             },
@@ -8430,7 +7789,7 @@ export default [
           {
             area: {
               code: 320583,
-              level: 3,
+              level: 2,
               name: '昆山市',
               pid: 320500,
             },
@@ -8439,7 +7798,7 @@ export default [
           {
             area: {
               code: 320585,
-              level: 3,
+              level: 2,
               name: '太仓市',
               pid: 320500,
             },
@@ -8455,15 +7814,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 320601,
-              level: 3,
-              name: '市辖区',
-              pid: 320600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 320602,
@@ -8512,7 +7862,7 @@ export default [
           {
             area: {
               code: 320681,
-              level: 3,
+              level: 2,
               name: '启东市',
               pid: 320600,
             },
@@ -8521,7 +7871,7 @@ export default [
           {
             area: {
               code: 320682,
-              level: 3,
+              level: 2,
               name: '如皋市',
               pid: 320600,
             },
@@ -8530,7 +7880,7 @@ export default [
           {
             area: {
               code: 320684,
-              level: 3,
+              level: 2,
               name: '海门市',
               pid: 320600,
             },
@@ -8546,15 +7896,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 320701,
-              level: 3,
-              name: '市辖区',
-              pid: 320700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 320703,
@@ -8621,9 +7962,9 @@ export default [
         children: [
           {
             area: {
-              code: 320801,
+              code: 320802,
               level: 3,
-              name: '市辖区',
+              name: '清江浦区',
               pid: 320800,
             },
             children: [],
@@ -8642,15 +7983,6 @@ export default [
               code: 320804,
               level: 3,
               name: '淮阴区',
-              pid: 320800,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 320812,
-              level: 3,
-              name: '清江浦区',
               pid: 320800,
             },
             children: [],
@@ -8701,15 +8033,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 320901,
-              level: 3,
-              name: '市辖区',
-              pid: 320900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 320902,
@@ -8785,7 +8108,7 @@ export default [
           {
             area: {
               code: 320981,
-              level: 3,
+              level: 2,
               name: '东台市',
               pid: 320900,
             },
@@ -8801,15 +8124,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 321001,
-              level: 3,
-              name: '市辖区',
-              pid: 321000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 321002,
@@ -8849,7 +8163,7 @@ export default [
           {
             area: {
               code: 321081,
-              level: 3,
+              level: 2,
               name: '仪征市',
               pid: 321000,
             },
@@ -8858,7 +8172,7 @@ export default [
           {
             area: {
               code: 321084,
-              level: 3,
+              level: 2,
               name: '高邮市',
               pid: 321000,
             },
@@ -8874,15 +8188,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 321101,
-              level: 3,
-              name: '市辖区',
-              pid: 321100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 321102,
@@ -8913,7 +8218,7 @@ export default [
           {
             area: {
               code: 321181,
-              level: 3,
+              level: 2,
               name: '丹阳市',
               pid: 321100,
             },
@@ -8922,7 +8227,7 @@ export default [
           {
             area: {
               code: 321182,
-              level: 3,
+              level: 2,
               name: '扬中市',
               pid: 321100,
             },
@@ -8931,7 +8236,7 @@ export default [
           {
             area: {
               code: 321183,
-              level: 3,
+              level: 2,
               name: '句容市',
               pid: 321100,
             },
@@ -8947,15 +8252,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 321201,
-              level: 3,
-              name: '市辖区',
-              pid: 321200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 321202,
@@ -8986,7 +8282,7 @@ export default [
           {
             area: {
               code: 321281,
-              level: 3,
+              level: 2,
               name: '兴化市',
               pid: 321200,
             },
@@ -8995,7 +8291,7 @@ export default [
           {
             area: {
               code: 321282,
-              level: 3,
+              level: 2,
               name: '靖江市',
               pid: 321200,
             },
@@ -9004,7 +8300,7 @@ export default [
           {
             area: {
               code: 321283,
-              level: 3,
+              level: 2,
               name: '泰兴市',
               pid: 321200,
             },
@@ -9020,15 +8316,6 @@ export default [
           pid: 320000,
         },
         children: [
-          {
-            area: {
-              code: 321301,
-              level: 3,
-              name: '市辖区',
-              pid: 321300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 321302,
@@ -9094,15 +8381,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 330101,
-              level: 3,
-              name: '市辖区',
-              pid: 330100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 330102,
@@ -9205,7 +8483,7 @@ export default [
           {
             area: {
               code: 330182,
-              level: 3,
+              level: 2,
               name: '建德市',
               pid: 330100,
             },
@@ -9214,7 +8492,7 @@ export default [
           {
             area: {
               code: 330185,
-              level: 3,
+              level: 2,
               name: '临安市',
               pid: 330100,
             },
@@ -9232,27 +8510,9 @@ export default [
         children: [
           {
             area: {
-              code: 330201,
-              level: 3,
-              name: '市辖区',
-              pid: 330200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 330203,
               level: 3,
               name: '海曙区',
-              pid: 330200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 330204,
-              level: 3,
-              name: '江东区',
               pid: 330200,
             },
             children: [],
@@ -9314,7 +8574,7 @@ export default [
           {
             area: {
               code: 330281,
-              level: 3,
+              level: 2,
               name: '余姚市',
               pid: 330200,
             },
@@ -9323,7 +8583,7 @@ export default [
           {
             area: {
               code: 330282,
-              level: 3,
+              level: 2,
               name: '慈溪市',
               pid: 330200,
             },
@@ -9333,7 +8593,7 @@ export default [
             area: {
               code: 330283,
               level: 3,
-              name: '奉化市',
+              name: '奉化区',
               pid: 330200,
             },
             children: [],
@@ -9348,15 +8608,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 330301,
-              level: 3,
-              name: '市辖区',
-              pid: 330300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 330302,
@@ -9441,7 +8692,7 @@ export default [
           {
             area: {
               code: 330381,
-              level: 3,
+              level: 2,
               name: '瑞安市',
               pid: 330300,
             },
@@ -9450,7 +8701,7 @@ export default [
           {
             area: {
               code: 330382,
-              level: 3,
+              level: 2,
               name: '乐清市',
               pid: 330300,
             },
@@ -9466,15 +8717,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 330401,
-              level: 3,
-              name: '市辖区',
-              pid: 330400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 330402,
@@ -9514,7 +8756,7 @@ export default [
           {
             area: {
               code: 330481,
-              level: 3,
+              level: 2,
               name: '海宁市',
               pid: 330400,
             },
@@ -9523,7 +8765,7 @@ export default [
           {
             area: {
               code: 330482,
-              level: 3,
+              level: 2,
               name: '平湖市',
               pid: 330400,
             },
@@ -9532,7 +8774,7 @@ export default [
           {
             area: {
               code: 330483,
-              level: 3,
+              level: 2,
               name: '桐乡市',
               pid: 330400,
             },
@@ -9548,15 +8790,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 330501,
-              level: 3,
-              name: '市辖区',
-              pid: 330500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 330502,
@@ -9614,15 +8847,6 @@ export default [
         children: [
           {
             area: {
-              code: 330601,
-              level: 3,
-              name: '市辖区',
-              pid: 330600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 330602,
               level: 3,
               name: '越城区',
@@ -9660,7 +8884,7 @@ export default [
           {
             area: {
               code: 330681,
-              level: 3,
+              level: 2,
               name: '诸暨市',
               pid: 330600,
             },
@@ -9669,7 +8893,7 @@ export default [
           {
             area: {
               code: 330683,
-              level: 3,
+              level: 2,
               name: '嵊州市',
               pid: 330600,
             },
@@ -9685,15 +8909,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 330701,
-              level: 3,
-              name: '市辖区',
-              pid: 330700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 330702,
@@ -9742,7 +8957,7 @@ export default [
           {
             area: {
               code: 330781,
-              level: 3,
+              level: 2,
               name: '兰溪市',
               pid: 330700,
             },
@@ -9751,7 +8966,7 @@ export default [
           {
             area: {
               code: 330782,
-              level: 3,
+              level: 2,
               name: '义乌市',
               pid: 330700,
             },
@@ -9760,7 +8975,7 @@ export default [
           {
             area: {
               code: 330783,
-              level: 3,
+              level: 2,
               name: '东阳市',
               pid: 330700,
             },
@@ -9769,7 +8984,7 @@ export default [
           {
             area: {
               code: 330784,
-              level: 3,
+              level: 2,
               name: '永康市',
               pid: 330700,
             },
@@ -9785,15 +9000,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 330801,
-              level: 3,
-              name: '市辖区',
-              pid: 330800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 330802,
@@ -9842,7 +9048,7 @@ export default [
           {
             area: {
               code: 330881,
-              level: 3,
+              level: 2,
               name: '江山市',
               pid: 330800,
             },
@@ -9858,15 +9064,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 330901,
-              level: 3,
-              name: '市辖区',
-              pid: 330900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 330902,
@@ -9913,15 +9110,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 331001,
-              level: 3,
-              name: '市辖区',
-              pid: 331000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 331002,
@@ -9988,7 +9176,7 @@ export default [
           {
             area: {
               code: 331081,
-              level: 3,
+              level: 2,
               name: '温岭市',
               pid: 331000,
             },
@@ -9997,7 +9185,7 @@ export default [
           {
             area: {
               code: 331082,
-              level: 3,
+              level: 2,
               name: '临海市',
               pid: 331000,
             },
@@ -10013,15 +9201,6 @@ export default [
           pid: 330000,
         },
         children: [
-          {
-            area: {
-              code: 331101,
-              level: 3,
-              name: '市辖区',
-              pid: 331100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 331102,
@@ -10097,7 +9276,7 @@ export default [
           {
             area: {
               code: 331181,
-              level: 3,
+              level: 2,
               name: '龙泉市',
               pid: 331100,
             },
@@ -10123,15 +9302,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 340101,
-              level: 3,
-              name: '市辖区',
-              pid: 340100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 340102,
@@ -10207,7 +9377,7 @@ export default [
           {
             area: {
               code: 340181,
-              level: 3,
+              level: 2,
               name: '巢湖市',
               pid: 340100,
             },
@@ -10223,15 +9393,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 340201,
-              level: 3,
-              name: '市辖区',
-              pid: 340200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 340202,
@@ -10316,15 +9477,6 @@ export default [
         children: [
           {
             area: {
-              code: 340301,
-              level: 3,
-              name: '市辖区',
-              pid: 340300,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 340302,
               level: 3,
               name: '龙子湖区',
@@ -10396,15 +9548,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 340401,
-              level: 3,
-              name: '市辖区',
-              pid: 340400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 340402,
@@ -10480,15 +9623,6 @@ export default [
         children: [
           {
             area: {
-              code: 340501,
-              level: 3,
-              name: '市辖区',
-              pid: 340500,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 340503,
               level: 3,
               name: '花山区',
@@ -10553,15 +9687,6 @@ export default [
         children: [
           {
             area: {
-              code: 340601,
-              level: 3,
-              name: '市辖区',
-              pid: 340600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 340602,
               level: 3,
               name: '杜集区',
@@ -10608,15 +9733,6 @@ export default [
         children: [
           {
             area: {
-              code: 340701,
-              level: 3,
-              name: '市辖区',
-              pid: 340700,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 340705,
               level: 3,
               name: '铜官区',
@@ -10661,15 +9777,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 340801,
-              level: 3,
-              name: '市辖区',
-              pid: 340800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 340802,
@@ -10754,7 +9861,7 @@ export default [
           {
             area: {
               code: 340881,
-              level: 3,
+              level: 2,
               name: '桐城市',
               pid: 340800,
             },
@@ -10770,15 +9877,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 341001,
-              level: 3,
-              name: '市辖区',
-              pid: 341000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 341002,
@@ -10854,15 +9952,6 @@ export default [
         children: [
           {
             area: {
-              code: 341101,
-              level: 3,
-              name: '市辖区',
-              pid: 341100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 341102,
               level: 3,
               name: '琅琊区',
@@ -10918,7 +10007,7 @@ export default [
           {
             area: {
               code: 341181,
-              level: 3,
+              level: 2,
               name: '天长市',
               pid: 341100,
             },
@@ -10927,7 +10016,7 @@ export default [
           {
             area: {
               code: 341182,
-              level: 3,
+              level: 2,
               name: '明光市',
               pid: 341100,
             },
@@ -10943,15 +10032,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 341201,
-              level: 3,
-              name: '市辖区',
-              pid: 341200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 341202,
@@ -11018,7 +10098,7 @@ export default [
           {
             area: {
               code: 341282,
-              level: 3,
+              level: 2,
               name: '界首市',
               pid: 341200,
             },
@@ -11034,15 +10114,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 341301,
-              level: 3,
-              name: '市辖区',
-              pid: 341300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 341302,
@@ -11098,15 +10169,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 341501,
-              level: 3,
-              name: '市辖区',
-              pid: 341500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 341502,
@@ -11182,15 +10244,6 @@ export default [
         children: [
           {
             area: {
-              code: 341601,
-              level: 3,
-              name: '市辖区',
-              pid: 341600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 341602,
               level: 3,
               name: '谯城区',
@@ -11237,15 +10290,6 @@ export default [
         children: [
           {
             area: {
-              code: 341701,
-              level: 3,
-              name: '市辖区',
-              pid: 341700,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 341702,
               level: 3,
               name: '贵池区',
@@ -11290,15 +10334,6 @@ export default [
           pid: 340000,
         },
         children: [
-          {
-            area: {
-              code: 341801,
-              level: 3,
-              name: '市辖区',
-              pid: 341800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 341802,
@@ -11356,7 +10391,7 @@ export default [
           {
             area: {
               code: 341881,
-              level: 3,
+              level: 2,
               name: '宁国市',
               pid: 341800,
             },
@@ -11382,15 +10417,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350101,
-              level: 3,
-              name: '市辖区',
-              pid: 350100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350102,
@@ -11493,7 +10519,7 @@ export default [
           {
             area: {
               code: 350181,
-              level: 3,
+              level: 2,
               name: '福清市',
               pid: 350100,
             },
@@ -11502,7 +10528,7 @@ export default [
           {
             area: {
               code: 350182,
-              level: 3,
+              level: 2,
               name: '长乐市',
               pid: 350100,
             },
@@ -11518,15 +10544,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350201,
-              level: 3,
-              name: '市辖区',
-              pid: 350200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350203,
@@ -11593,15 +10610,6 @@ export default [
         children: [
           {
             area: {
-              code: 350301,
-              level: 3,
-              name: '市辖区',
-              pid: 350300,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 350302,
               level: 3,
               name: '城厢区',
@@ -11655,15 +10663,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350401,
-              level: 3,
-              name: '市辖区',
-              pid: 350400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350402,
@@ -11766,7 +10765,7 @@ export default [
           {
             area: {
               code: 350481,
-              level: 3,
+              level: 2,
               name: '永安市',
               pid: 350400,
             },
@@ -11782,15 +10781,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350501,
-              level: 3,
-              name: '市辖区',
-              pid: 350500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350502,
@@ -11875,7 +10865,7 @@ export default [
           {
             area: {
               code: 350581,
-              level: 3,
+              level: 2,
               name: '石狮市',
               pid: 350500,
             },
@@ -11884,7 +10874,7 @@ export default [
           {
             area: {
               code: 350582,
-              level: 3,
+              level: 2,
               name: '晋江市',
               pid: 350500,
             },
@@ -11893,7 +10883,7 @@ export default [
           {
             area: {
               code: 350583,
-              level: 3,
+              level: 2,
               name: '南安市',
               pid: 350500,
             },
@@ -11909,15 +10899,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350601,
-              level: 3,
-              name: '市辖区',
-              pid: 350600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350602,
@@ -12011,7 +10992,7 @@ export default [
           {
             area: {
               code: 350681,
-              level: 3,
+              level: 2,
               name: '龙海市',
               pid: 350600,
             },
@@ -12027,15 +11008,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350701,
-              level: 3,
-              name: '市辖区',
-              pid: 350700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350702,
@@ -12102,7 +11074,7 @@ export default [
           {
             area: {
               code: 350781,
-              level: 3,
+              level: 2,
               name: '邵武市',
               pid: 350700,
             },
@@ -12111,7 +11083,7 @@ export default [
           {
             area: {
               code: 350782,
-              level: 3,
+              level: 2,
               name: '武夷山市',
               pid: 350700,
             },
@@ -12120,7 +11092,7 @@ export default [
           {
             area: {
               code: 350783,
-              level: 3,
+              level: 2,
               name: '建瓯市',
               pid: 350700,
             },
@@ -12136,15 +11108,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350801,
-              level: 3,
-              name: '市辖区',
-              pid: 350800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350802,
@@ -12202,7 +11165,7 @@ export default [
           {
             area: {
               code: 350881,
-              level: 3,
+              level: 2,
               name: '漳平市',
               pid: 350800,
             },
@@ -12218,15 +11181,6 @@ export default [
           pid: 350000,
         },
         children: [
-          {
-            area: {
-              code: 350901,
-              level: 3,
-              name: '市辖区',
-              pid: 350900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 350902,
@@ -12293,7 +11247,7 @@ export default [
           {
             area: {
               code: 350981,
-              level: 3,
+              level: 2,
               name: '福安市',
               pid: 350900,
             },
@@ -12302,7 +11256,7 @@ export default [
           {
             area: {
               code: 350982,
-              level: 3,
+              level: 2,
               name: '福鼎市',
               pid: 350900,
             },
@@ -12328,15 +11282,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 360101,
-              level: 3,
-              name: '市辖区',
-              pid: 360100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 360102,
@@ -12430,15 +11375,6 @@ export default [
         children: [
           {
             area: {
-              code: 360201,
-              level: 3,
-              name: '市辖区',
-              pid: 360200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 360202,
               level: 3,
               name: '昌江区',
@@ -12467,7 +11403,7 @@ export default [
           {
             area: {
               code: 360281,
-              level: 3,
+              level: 2,
               name: '乐平市',
               pid: 360200,
             },
@@ -12483,15 +11419,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 360301,
-              level: 3,
-              name: '市辖区',
-              pid: 360300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 360302,
@@ -12547,15 +11474,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 360401,
-              level: 3,
-              name: '市辖区',
-              pid: 360400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 360402,
@@ -12621,6 +11539,15 @@ export default [
           },
           {
             area: {
+              code: 360427,
+              level: 2,
+              name: '庐山市',
+              pid: 360400,
+            },
+            children: [],
+          },
+          {
+            area: {
               code: 360428,
               level: 3,
               name: '都昌县',
@@ -12649,7 +11576,7 @@ export default [
           {
             area: {
               code: 360481,
-              level: 3,
+              level: 2,
               name: '瑞昌市',
               pid: 360400,
             },
@@ -12658,17 +11585,8 @@ export default [
           {
             area: {
               code: 360482,
-              level: 3,
+              level: 2,
               name: '共青城市',
-              pid: 360400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 360483,
-              level: 3,
-              name: '庐山市',
               pid: 360400,
             },
             children: [],
@@ -12683,15 +11601,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 360501,
-              level: 3,
-              name: '市辖区',
-              pid: 360500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 360502,
@@ -12722,15 +11631,6 @@ export default [
         children: [
           {
             area: {
-              code: 360601,
-              level: 3,
-              name: '市辖区',
-              pid: 360600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 360602,
               level: 3,
               name: '月湖区',
@@ -12750,7 +11650,7 @@ export default [
           {
             area: {
               code: 360681,
-              level: 3,
+              level: 2,
               name: '贵溪市',
               pid: 360600,
             },
@@ -12766,15 +11666,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 360701,
-              level: 3,
-              name: '市辖区',
-              pid: 360700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 360702,
@@ -12797,7 +11688,7 @@ export default [
             area: {
               code: 360721,
               level: 3,
-              name: '赣县',
+              name: '赣县区',
               pid: 360700,
             },
             children: [],
@@ -12931,7 +11822,7 @@ export default [
           {
             area: {
               code: 360781,
-              level: 3,
+              level: 2,
               name: '瑞金市',
               pid: 360700,
             },
@@ -12947,15 +11838,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 360801,
-              level: 3,
-              name: '市辖区',
-              pid: 360800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 360802,
@@ -13067,7 +11949,7 @@ export default [
           {
             area: {
               code: 360881,
-              level: 3,
+              level: 2,
               name: '井冈山市',
               pid: 360800,
             },
@@ -13083,15 +11965,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 360901,
-              level: 3,
-              name: '市辖区',
-              pid: 360900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 360902,
@@ -13158,7 +12031,7 @@ export default [
           {
             area: {
               code: 360981,
-              level: 3,
+              level: 2,
               name: '丰城市',
               pid: 360900,
             },
@@ -13167,7 +12040,7 @@ export default [
           {
             area: {
               code: 360982,
-              level: 3,
+              level: 2,
               name: '樟树市',
               pid: 360900,
             },
@@ -13176,7 +12049,7 @@ export default [
           {
             area: {
               code: 360983,
-              level: 3,
+              level: 2,
               name: '高安市',
               pid: 360900,
             },
@@ -13192,15 +12065,6 @@ export default [
           pid: 360000,
         },
         children: [
-          {
-            area: {
-              code: 361001,
-              level: 3,
-              name: '市辖区',
-              pid: 361000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 361002,
@@ -13312,15 +12176,6 @@ export default [
         children: [
           {
             area: {
-              code: 361101,
-              level: 3,
-              name: '市辖区',
-              pid: 361100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 361102,
               level: 3,
               name: '信州区',
@@ -13421,7 +12276,7 @@ export default [
           {
             area: {
               code: 361181,
-              level: 3,
+              level: 2,
               name: '德兴市',
               pid: 361100,
             },
@@ -13447,15 +12302,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 370101,
-              level: 3,
-              name: '市辖区',
-              pid: 370100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 370102,
@@ -13541,7 +12387,7 @@ export default [
             area: {
               code: 370181,
               level: 3,
-              name: '章丘市',
+              name: '章丘区',
               pid: 370100,
             },
             children: [],
@@ -13556,15 +12402,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 370201,
-              level: 3,
-              name: '市辖区',
-              pid: 370200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 370202,
@@ -13622,7 +12459,7 @@ export default [
           {
             area: {
               code: 370281,
-              level: 3,
+              level: 2,
               name: '胶州市',
               pid: 370200,
             },
@@ -13631,7 +12468,7 @@ export default [
           {
             area: {
               code: 370282,
-              level: 3,
+              level: 2,
               name: '即墨市',
               pid: 370200,
             },
@@ -13640,7 +12477,7 @@ export default [
           {
             area: {
               code: 370283,
-              level: 3,
+              level: 2,
               name: '平度市',
               pid: 370200,
             },
@@ -13649,7 +12486,7 @@ export default [
           {
             area: {
               code: 370285,
-              level: 3,
+              level: 2,
               name: '莱西市',
               pid: 370200,
             },
@@ -13665,15 +12502,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 370301,
-              level: 3,
-              name: '市辖区',
-              pid: 370300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 370302,
@@ -13758,15 +12586,6 @@ export default [
         children: [
           {
             area: {
-              code: 370401,
-              level: 3,
-              name: '市辖区',
-              pid: 370400,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 370402,
               level: 3,
               name: '市中区',
@@ -13813,7 +12632,7 @@ export default [
           {
             area: {
               code: 370481,
-              level: 3,
+              level: 2,
               name: '滕州市',
               pid: 370400,
             },
@@ -13829,15 +12648,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 370501,
-              level: 3,
-              name: '市辖区',
-              pid: 370500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 370502,
@@ -13895,15 +12705,6 @@ export default [
         children: [
           {
             area: {
-              code: 370601,
-              level: 3,
-              name: '市辖区',
-              pid: 370600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 370602,
               level: 3,
               name: '芝罘区',
@@ -13950,7 +12751,7 @@ export default [
           {
             area: {
               code: 370681,
-              level: 3,
+              level: 2,
               name: '龙口市',
               pid: 370600,
             },
@@ -13959,7 +12760,7 @@ export default [
           {
             area: {
               code: 370682,
-              level: 3,
+              level: 2,
               name: '莱阳市',
               pid: 370600,
             },
@@ -13968,7 +12769,7 @@ export default [
           {
             area: {
               code: 370683,
-              level: 3,
+              level: 2,
               name: '莱州市',
               pid: 370600,
             },
@@ -13977,7 +12778,7 @@ export default [
           {
             area: {
               code: 370684,
-              level: 3,
+              level: 2,
               name: '蓬莱市',
               pid: 370600,
             },
@@ -13986,7 +12787,7 @@ export default [
           {
             area: {
               code: 370685,
-              level: 3,
+              level: 2,
               name: '招远市',
               pid: 370600,
             },
@@ -13995,7 +12796,7 @@ export default [
           {
             area: {
               code: 370686,
-              level: 3,
+              level: 2,
               name: '栖霞市',
               pid: 370600,
             },
@@ -14004,7 +12805,7 @@ export default [
           {
             area: {
               code: 370687,
-              level: 3,
+              level: 2,
               name: '海阳市',
               pid: 370600,
             },
@@ -14020,15 +12821,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 370701,
-              level: 3,
-              name: '市辖区',
-              pid: 370700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 370702,
@@ -14086,7 +12878,7 @@ export default [
           {
             area: {
               code: 370781,
-              level: 3,
+              level: 2,
               name: '青州市',
               pid: 370700,
             },
@@ -14095,7 +12887,7 @@ export default [
           {
             area: {
               code: 370782,
-              level: 3,
+              level: 2,
               name: '诸城市',
               pid: 370700,
             },
@@ -14104,7 +12896,7 @@ export default [
           {
             area: {
               code: 370783,
-              level: 3,
+              level: 2,
               name: '寿光市',
               pid: 370700,
             },
@@ -14113,7 +12905,7 @@ export default [
           {
             area: {
               code: 370784,
-              level: 3,
+              level: 2,
               name: '安丘市',
               pid: 370700,
             },
@@ -14122,7 +12914,7 @@ export default [
           {
             area: {
               code: 370785,
-              level: 3,
+              level: 2,
               name: '高密市',
               pid: 370700,
             },
@@ -14131,7 +12923,7 @@ export default [
           {
             area: {
               code: 370786,
-              level: 3,
+              level: 2,
               name: '昌邑市',
               pid: 370700,
             },
@@ -14147,15 +12939,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 370801,
-              level: 3,
-              name: '市辖区',
-              pid: 370800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 370811,
@@ -14240,7 +13023,7 @@ export default [
           {
             area: {
               code: 370881,
-              level: 3,
+              level: 2,
               name: '曲阜市',
               pid: 370800,
             },
@@ -14249,7 +13032,7 @@ export default [
           {
             area: {
               code: 370883,
-              level: 3,
+              level: 2,
               name: '邹城市',
               pid: 370800,
             },
@@ -14265,15 +13048,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 370901,
-              level: 3,
-              name: '市辖区',
-              pid: 370900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 370902,
@@ -14313,7 +13087,7 @@ export default [
           {
             area: {
               code: 370982,
-              level: 3,
+              level: 2,
               name: '新泰市',
               pid: 370900,
             },
@@ -14322,7 +13096,7 @@ export default [
           {
             area: {
               code: 370983,
-              level: 3,
+              level: 2,
               name: '肥城市',
               pid: 370900,
             },
@@ -14338,15 +13112,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 371001,
-              level: 3,
-              name: '市辖区',
-              pid: 371000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 371002,
@@ -14368,7 +13133,7 @@ export default [
           {
             area: {
               code: 371082,
-              level: 3,
+              level: 2,
               name: '荣成市',
               pid: 371000,
             },
@@ -14377,7 +13142,7 @@ export default [
           {
             area: {
               code: 371083,
-              level: 3,
+              level: 2,
               name: '乳山市',
               pid: 371000,
             },
@@ -14393,15 +13158,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 371101,
-              level: 3,
-              name: '市辖区',
-              pid: 371100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 371102,
@@ -14450,15 +13206,6 @@ export default [
         children: [
           {
             area: {
-              code: 371201,
-              level: 3,
-              name: '市辖区',
-              pid: 371200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 371202,
               level: 3,
               name: '莱城区',
@@ -14485,15 +13232,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 371301,
-              level: 3,
-              name: '市辖区',
-              pid: 371300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 371302,
@@ -14614,15 +13352,6 @@ export default [
         children: [
           {
             area: {
-              code: 371401,
-              level: 3,
-              name: '市辖区',
-              pid: 371400,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 371402,
               level: 3,
               name: '德城区',
@@ -14705,7 +13434,7 @@ export default [
           {
             area: {
               code: 371481,
-              level: 3,
+              level: 2,
               name: '乐陵市',
               pid: 371400,
             },
@@ -14714,7 +13443,7 @@ export default [
           {
             area: {
               code: 371482,
-              level: 3,
+              level: 2,
               name: '禹城市',
               pid: 371400,
             },
@@ -14730,15 +13459,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 371501,
-              level: 3,
-              name: '市辖区',
-              pid: 371500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 371502,
@@ -14805,7 +13525,7 @@ export default [
           {
             area: {
               code: 371581,
-              level: 3,
+              level: 2,
               name: '临清市',
               pid: 371500,
             },
@@ -14821,15 +13541,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 371601,
-              level: 3,
-              name: '市辖区',
-              pid: 371600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 371602,
@@ -14903,15 +13614,6 @@ export default [
           pid: 370000,
         },
         children: [
-          {
-            area: {
-              code: 371701,
-              level: 3,
-              name: '市辖区',
-              pid: 371700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 371702,
@@ -15015,15 +13717,6 @@ export default [
         children: [
           {
             area: {
-              code: 410101,
-              level: 3,
-              name: '市辖区',
-              pid: 410100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 410102,
               level: 3,
               name: '中原区',
@@ -15088,7 +13781,7 @@ export default [
           {
             area: {
               code: 410181,
-              level: 3,
+              level: 2,
               name: '巩义市',
               pid: 410100,
             },
@@ -15097,7 +13790,7 @@ export default [
           {
             area: {
               code: 410182,
-              level: 3,
+              level: 2,
               name: '荥阳市',
               pid: 410100,
             },
@@ -15106,7 +13799,7 @@ export default [
           {
             area: {
               code: 410183,
-              level: 3,
+              level: 2,
               name: '新密市',
               pid: 410100,
             },
@@ -15115,7 +13808,7 @@ export default [
           {
             area: {
               code: 410184,
-              level: 3,
+              level: 2,
               name: '新郑市',
               pid: 410100,
             },
@@ -15124,7 +13817,7 @@ export default [
           {
             area: {
               code: 410185,
-              level: 3,
+              level: 2,
               name: '登封市',
               pid: 410100,
             },
@@ -15140,15 +13833,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410201,
-              level: 3,
-              name: '市辖区',
-              pid: 410200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410202,
@@ -15181,15 +13865,6 @@ export default [
               code: 410205,
               level: 3,
               name: '禹王台区',
-              pid: 410200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 410211,
-              level: 3,
-              name: '金明区',
               pid: 410200,
             },
             children: [],
@@ -15249,15 +13924,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410301,
-              level: 3,
-              name: '市辖区',
-              pid: 410300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410302,
@@ -15387,7 +14053,7 @@ export default [
           {
             area: {
               code: 410381,
-              level: 3,
+              level: 2,
               name: '偃师市',
               pid: 410300,
             },
@@ -15403,15 +14069,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410401,
-              level: 3,
-              name: '市辖区',
-              pid: 410400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410402,
@@ -15487,7 +14144,7 @@ export default [
           {
             area: {
               code: 410481,
-              level: 3,
+              level: 2,
               name: '舞钢市',
               pid: 410400,
             },
@@ -15496,7 +14153,7 @@ export default [
           {
             area: {
               code: 410482,
-              level: 3,
+              level: 2,
               name: '汝州市',
               pid: 410400,
             },
@@ -15512,15 +14169,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410501,
-              level: 3,
-              name: '市辖区',
-              pid: 410500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410502,
@@ -15596,7 +14244,7 @@ export default [
           {
             area: {
               code: 410581,
-              level: 3,
+              level: 2,
               name: '林州市',
               pid: 410500,
             },
@@ -15612,15 +14260,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410601,
-              level: 3,
-              name: '市辖区',
-              pid: 410600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410602,
@@ -15676,15 +14315,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410701,
-              level: 3,
-              name: '市辖区',
-              pid: 410700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410702,
@@ -15778,7 +14408,7 @@ export default [
           {
             area: {
               code: 410781,
-              level: 3,
+              level: 2,
               name: '卫辉市',
               pid: 410700,
             },
@@ -15787,7 +14417,7 @@ export default [
           {
             area: {
               code: 410782,
-              level: 3,
+              level: 2,
               name: '辉县市',
               pid: 410700,
             },
@@ -15803,15 +14433,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410801,
-              level: 3,
-              name: '市辖区',
-              pid: 410800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410802,
@@ -15887,7 +14508,7 @@ export default [
           {
             area: {
               code: 410882,
-              level: 3,
+              level: 2,
               name: '沁阳市',
               pid: 410800,
             },
@@ -15896,7 +14517,7 @@ export default [
           {
             area: {
               code: 410883,
-              level: 3,
+              level: 2,
               name: '孟州市',
               pid: 410800,
             },
@@ -15912,15 +14533,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 410901,
-              level: 3,
-              name: '市辖区',
-              pid: 410900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 410902,
@@ -15987,15 +14599,6 @@ export default [
         children: [
           {
             area: {
-              code: 411001,
-              level: 3,
-              name: '市辖区',
-              pid: 411000,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 411002,
               level: 3,
               name: '魏都区',
@@ -16007,7 +14610,7 @@ export default [
             area: {
               code: 411023,
               level: 3,
-              name: '许昌县',
+              name: '建安区',
               pid: 411000,
             },
             children: [],
@@ -16033,7 +14636,7 @@ export default [
           {
             area: {
               code: 411081,
-              level: 3,
+              level: 2,
               name: '禹州市',
               pid: 411000,
             },
@@ -16042,7 +14645,7 @@ export default [
           {
             area: {
               code: 411082,
-              level: 3,
+              level: 2,
               name: '长葛市',
               pid: 411000,
             },
@@ -16058,15 +14661,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 411101,
-              level: 3,
-              name: '市辖区',
-              pid: 411100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 411102,
@@ -16124,15 +14718,6 @@ export default [
         children: [
           {
             area: {
-              code: 411201,
-              level: 3,
-              name: '市辖区',
-              pid: 411200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 411202,
               level: 3,
               name: '湖滨区',
@@ -16170,7 +14755,7 @@ export default [
           {
             area: {
               code: 411281,
-              level: 3,
+              level: 2,
               name: '义马市',
               pid: 411200,
             },
@@ -16179,7 +14764,7 @@ export default [
           {
             area: {
               code: 411282,
-              level: 3,
+              level: 2,
               name: '灵宝市',
               pid: 411200,
             },
@@ -16195,15 +14780,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 411301,
-              level: 3,
-              name: '市辖区',
-              pid: 411300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 411302,
@@ -16315,7 +14891,7 @@ export default [
           {
             area: {
               code: 411381,
-              level: 3,
+              level: 2,
               name: '邓州市',
               pid: 411300,
             },
@@ -16331,15 +14907,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 411401,
-              level: 3,
-              name: '市辖区',
-              pid: 411400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 411402,
@@ -16415,7 +14982,7 @@ export default [
           {
             area: {
               code: 411481,
-              level: 3,
+              level: 2,
               name: '永城市',
               pid: 411400,
             },
@@ -16431,15 +14998,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 411501,
-              level: 3,
-              name: '市辖区',
-              pid: 411500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 411502,
@@ -16542,15 +15100,6 @@ export default [
         children: [
           {
             area: {
-              code: 411601,
-              level: 3,
-              name: '市辖区',
-              pid: 411600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 411602,
               level: 3,
               name: '川汇区',
@@ -16633,7 +15182,7 @@ export default [
           {
             area: {
               code: 411681,
-              level: 3,
+              level: 2,
               name: '项城市',
               pid: 411600,
             },
@@ -16649,15 +15198,6 @@ export default [
           pid: 410000,
         },
         children: [
-          {
-            area: {
-              code: 411701,
-              level: 3,
-              name: '市辖区',
-              pid: 411700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 411702,
@@ -16752,22 +15292,12 @@ export default [
       },
       {
         area: {
-          code: 419000,
+          code: 419001,
           level: 2,
-          name: '省直辖县级行政区划',
+          name: '济源市',
           pid: 410000,
         },
-        children: [
-          {
-            area: {
-              code: 419001,
-              level: 3,
-              name: '济源市',
-              pid: 419000,
-            },
-            children: [],
-          },
-        ],
+        children: [],
       },
     ],
   },
@@ -16787,15 +15317,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 420101,
-              level: 3,
-              name: '市辖区',
-              pid: 420100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 420102,
@@ -16925,15 +15446,6 @@ export default [
         children: [
           {
             area: {
-              code: 420201,
-              level: 3,
-              name: '市辖区',
-              pid: 420200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 420202,
               level: 3,
               name: '黄石港区',
@@ -16980,7 +15492,7 @@ export default [
           {
             area: {
               code: 420281,
-              level: 3,
+              level: 2,
               name: '大冶市',
               pid: 420200,
             },
@@ -16996,15 +15508,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 420301,
-              level: 3,
-              name: '市辖区',
-              pid: 420300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 420302,
@@ -17071,7 +15574,7 @@ export default [
           {
             area: {
               code: 420381,
-              level: 3,
+              level: 2,
               name: '丹江口市',
               pid: 420300,
             },
@@ -17087,15 +15590,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 420501,
-              level: 3,
-              name: '市辖区',
-              pid: 420500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 420502,
@@ -17189,7 +15683,7 @@ export default [
           {
             area: {
               code: 420581,
-              level: 3,
+              level: 2,
               name: '宜都市',
               pid: 420500,
             },
@@ -17198,7 +15692,7 @@ export default [
           {
             area: {
               code: 420582,
-              level: 3,
+              level: 2,
               name: '当阳市',
               pid: 420500,
             },
@@ -17207,7 +15701,7 @@ export default [
           {
             area: {
               code: 420583,
-              level: 3,
+              level: 2,
               name: '枝江市',
               pid: 420500,
             },
@@ -17223,15 +15717,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 420601,
-              level: 3,
-              name: '市辖区',
-              pid: 420600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 420602,
@@ -17289,7 +15774,7 @@ export default [
           {
             area: {
               code: 420682,
-              level: 3,
+              level: 2,
               name: '老河口市',
               pid: 420600,
             },
@@ -17298,7 +15783,7 @@ export default [
           {
             area: {
               code: 420683,
-              level: 3,
+              level: 2,
               name: '枣阳市',
               pid: 420600,
             },
@@ -17307,7 +15792,7 @@ export default [
           {
             area: {
               code: 420684,
-              level: 3,
+              level: 2,
               name: '宜城市',
               pid: 420600,
             },
@@ -17323,15 +15808,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 420701,
-              level: 3,
-              name: '市辖区',
-              pid: 420700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 420702,
@@ -17371,15 +15847,6 @@ export default [
         children: [
           {
             area: {
-              code: 420801,
-              level: 3,
-              name: '市辖区',
-              pid: 420800,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 420802,
               level: 3,
               name: '东宝区',
@@ -17417,7 +15884,7 @@ export default [
           {
             area: {
               code: 420881,
-              level: 3,
+              level: 2,
               name: '钟祥市',
               pid: 420800,
             },
@@ -17433,15 +15900,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 420901,
-              level: 3,
-              name: '市辖区',
-              pid: 420900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 420902,
@@ -17481,7 +15939,7 @@ export default [
           {
             area: {
               code: 420981,
-              level: 3,
+              level: 2,
               name: '应城市',
               pid: 420900,
             },
@@ -17490,7 +15948,7 @@ export default [
           {
             area: {
               code: 420982,
-              level: 3,
+              level: 2,
               name: '安陆市',
               pid: 420900,
             },
@@ -17499,7 +15957,7 @@ export default [
           {
             area: {
               code: 420984,
-              level: 3,
+              level: 2,
               name: '汉川市',
               pid: 420900,
             },
@@ -17515,15 +15973,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 421001,
-              level: 3,
-              name: '市辖区',
-              pid: 421000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 421002,
@@ -17572,7 +16021,7 @@ export default [
           {
             area: {
               code: 421081,
-              level: 3,
+              level: 2,
               name: '石首市',
               pid: 421000,
             },
@@ -17581,7 +16030,7 @@ export default [
           {
             area: {
               code: 421083,
-              level: 3,
+              level: 2,
               name: '洪湖市',
               pid: 421000,
             },
@@ -17590,7 +16039,7 @@ export default [
           {
             area: {
               code: 421087,
-              level: 3,
+              level: 2,
               name: '松滋市',
               pid: 421000,
             },
@@ -17606,15 +16055,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 421101,
-              level: 3,
-              name: '市辖区',
-              pid: 421100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 421102,
@@ -17690,7 +16130,7 @@ export default [
           {
             area: {
               code: 421181,
-              level: 3,
+              level: 2,
               name: '麻城市',
               pid: 421100,
             },
@@ -17699,7 +16139,7 @@ export default [
           {
             area: {
               code: 421182,
-              level: 3,
+              level: 2,
               name: '武穴市',
               pid: 421100,
             },
@@ -17715,15 +16155,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 421201,
-              level: 3,
-              name: '市辖区',
-              pid: 421200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 421202,
@@ -17772,7 +16203,7 @@ export default [
           {
             area: {
               code: 421281,
-              level: 3,
+              level: 2,
               name: '赤壁市',
               pid: 421200,
             },
@@ -17788,15 +16219,6 @@ export default [
           pid: 420000,
         },
         children: [
-          {
-            area: {
-              code: 421301,
-              level: 3,
-              name: '市辖区',
-              pid: 421300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 421303,
@@ -17818,7 +16240,7 @@ export default [
           {
             area: {
               code: 421381,
-              level: 3,
+              level: 2,
               name: '广水市',
               pid: 421300,
             },
@@ -17837,7 +16259,7 @@ export default [
           {
             area: {
               code: 422801,
-              level: 3,
+              level: 2,
               name: '恩施市',
               pid: 422800,
             },
@@ -17846,7 +16268,7 @@ export default [
           {
             area: {
               code: 422802,
-              level: 3,
+              level: 2,
               name: '利川市',
               pid: 422800,
             },
@@ -17910,49 +16332,39 @@ export default [
       },
       {
         area: {
-          code: 429000,
+          code: 429004,
           level: 2,
-          name: '省直辖县级行政区划',
+          name: '仙桃市',
           pid: 420000,
         },
-        children: [
-          {
-            area: {
-              code: 429004,
-              level: 3,
-              name: '仙桃市',
-              pid: 429000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 429005,
-              level: 3,
-              name: '潜江市',
-              pid: 429000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 429006,
-              level: 3,
-              name: '天门市',
-              pid: 429000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 429021,
-              level: 3,
-              name: '神农架林区',
-              pid: 429000,
-            },
-            children: [],
-          },
-        ],
+        children: [],
+      },
+      {
+        area: {
+          code: 429005,
+          level: 2,
+          name: '潜江市',
+          pid: 420000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 429006,
+          level: 2,
+          name: '天门市',
+          pid: 420000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 429021,
+          level: 2,
+          name: '神农架林区',
+          pid: 420000,
+        },
+        children: [],
       },
     ],
   },
@@ -17972,15 +16384,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430101,
-              level: 3,
-              name: '市辖区',
-              pid: 430100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430102,
@@ -18056,7 +16459,7 @@ export default [
           {
             area: {
               code: 430181,
-              level: 3,
+              level: 2,
               name: '浏阳市',
               pid: 430100,
             },
@@ -18072,15 +16475,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430201,
-              level: 3,
-              name: '市辖区',
-              pid: 430200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430202,
@@ -18156,7 +16550,7 @@ export default [
           {
             area: {
               code: 430281,
-              level: 3,
+              level: 2,
               name: '醴陵市',
               pid: 430200,
             },
@@ -18172,15 +16566,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430301,
-              level: 3,
-              name: '市辖区',
-              pid: 430300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430302,
@@ -18211,7 +16596,7 @@ export default [
           {
             area: {
               code: 430381,
-              level: 3,
+              level: 2,
               name: '湘乡市',
               pid: 430300,
             },
@@ -18220,7 +16605,7 @@ export default [
           {
             area: {
               code: 430382,
-              level: 3,
+              level: 2,
               name: '韶山市',
               pid: 430300,
             },
@@ -18236,15 +16621,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430401,
-              level: 3,
-              name: '市辖区',
-              pid: 430400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430405,
@@ -18338,7 +16714,7 @@ export default [
           {
             area: {
               code: 430481,
-              level: 3,
+              level: 2,
               name: '耒阳市',
               pid: 430400,
             },
@@ -18347,7 +16723,7 @@ export default [
           {
             area: {
               code: 430482,
-              level: 3,
+              level: 2,
               name: '常宁市',
               pid: 430400,
             },
@@ -18363,15 +16739,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430501,
-              level: 3,
-              name: '市辖区',
-              pid: 430500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430502,
@@ -18474,7 +16841,7 @@ export default [
           {
             area: {
               code: 430581,
-              level: 3,
+              level: 2,
               name: '武冈市',
               pid: 430500,
             },
@@ -18490,15 +16857,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430601,
-              level: 3,
-              name: '市辖区',
-              pid: 430600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430602,
@@ -18565,7 +16923,7 @@ export default [
           {
             area: {
               code: 430681,
-              level: 3,
+              level: 2,
               name: '汨罗市',
               pid: 430600,
             },
@@ -18574,7 +16932,7 @@ export default [
           {
             area: {
               code: 430682,
-              level: 3,
+              level: 2,
               name: '临湘市',
               pid: 430600,
             },
@@ -18590,15 +16948,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430701,
-              level: 3,
-              name: '市辖区',
-              pid: 430700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430702,
@@ -18674,7 +17023,7 @@ export default [
           {
             area: {
               code: 430781,
-              level: 3,
+              level: 2,
               name: '津市市',
               pid: 430700,
             },
@@ -18690,15 +17039,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 430801,
-              level: 3,
-              name: '市辖区',
-              pid: 430800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 430802,
@@ -18747,15 +17087,6 @@ export default [
         children: [
           {
             area: {
-              code: 430901,
-              level: 3,
-              name: '市辖区',
-              pid: 430900,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 430902,
               level: 3,
               name: '资阳区',
@@ -18802,7 +17133,7 @@ export default [
           {
             area: {
               code: 430981,
-              level: 3,
+              level: 2,
               name: '沅江市',
               pid: 430900,
             },
@@ -18818,15 +17149,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 431001,
-              level: 3,
-              name: '市辖区',
-              pid: 431000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 431002,
@@ -18920,7 +17242,7 @@ export default [
           {
             area: {
               code: 431081,
-              level: 3,
+              level: 2,
               name: '资兴市',
               pid: 431000,
             },
@@ -18936,15 +17258,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 431101,
-              level: 3,
-              name: '市辖区',
-              pid: 431100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 431102,
@@ -19056,15 +17369,6 @@ export default [
         children: [
           {
             area: {
-              code: 431201,
-              level: 3,
-              name: '市辖区',
-              pid: 431200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 431202,
               level: 3,
               name: '鹤城区',
@@ -19165,7 +17469,7 @@ export default [
           {
             area: {
               code: 431281,
-              level: 3,
+              level: 2,
               name: '洪江市',
               pid: 431200,
             },
@@ -19181,15 +17485,6 @@ export default [
           pid: 430000,
         },
         children: [
-          {
-            area: {
-              code: 431301,
-              level: 3,
-              name: '市辖区',
-              pid: 431300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 431302,
@@ -19220,7 +17515,7 @@ export default [
           {
             area: {
               code: 431381,
-              level: 3,
+              level: 2,
               name: '冷水江市',
               pid: 431300,
             },
@@ -19229,7 +17524,7 @@ export default [
           {
             area: {
               code: 431382,
-              level: 3,
+              level: 2,
               name: '涟源市',
               pid: 431300,
             },
@@ -19248,7 +17543,7 @@ export default [
           {
             area: {
               code: 433101,
-              level: 3,
+              level: 2,
               name: '吉首市',
               pid: 433100,
             },
@@ -19337,15 +17632,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 440101,
-              level: 3,
-              name: '市辖区',
-              pid: 440100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 440103,
@@ -19457,15 +17743,6 @@ export default [
         children: [
           {
             area: {
-              code: 440201,
-              level: 3,
-              name: '市辖区',
-              pid: 440200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 440203,
               level: 3,
               name: '武江区',
@@ -19539,7 +17816,7 @@ export default [
           {
             area: {
               code: 440281,
-              level: 3,
+              level: 2,
               name: '乐昌市',
               pid: 440200,
             },
@@ -19548,7 +17825,7 @@ export default [
           {
             area: {
               code: 440282,
-              level: 3,
+              level: 2,
               name: '南雄市',
               pid: 440200,
             },
@@ -19564,15 +17841,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 440301,
-              level: 3,
-              name: '市辖区',
-              pid: 440300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 440303,
@@ -19627,6 +17895,24 @@ export default [
             },
             children: [],
           },
+          {
+            area: {
+              code: 440309,
+              level: 3,
+              name: '龙华区',
+              pid: 440300,
+            },
+            children: [],
+          },
+          {
+            area: {
+              code: 440310,
+              level: 3,
+              name: '坪山区',
+              pid: 440300,
+            },
+            children: [],
+          },
         ],
       },
       {
@@ -19664,15 +17950,6 @@ export default [
             },
             children: [],
           },
-          {
-            area: {
-              code: 440401,
-              level: 3,
-              name: '市辖区',
-              pid: 440400,
-            },
-            children: [],
-          },
         ],
       },
       {
@@ -19683,15 +17960,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 440501,
-              level: 3,
-              name: '市辖区',
-              pid: 440500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 440507,
@@ -19767,15 +18035,6 @@ export default [
         children: [
           {
             area: {
-              code: 440601,
-              level: 3,
-              name: '市辖区',
-              pid: 440600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 440604,
               level: 3,
               name: '禅城区',
@@ -19831,15 +18090,6 @@ export default [
         children: [
           {
             area: {
-              code: 440701,
-              level: 3,
-              name: '市辖区',
-              pid: 440700,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 440703,
               level: 3,
               name: '蓬江区',
@@ -19868,7 +18118,7 @@ export default [
           {
             area: {
               code: 440781,
-              level: 3,
+              level: 2,
               name: '台山市',
               pid: 440700,
             },
@@ -19877,7 +18127,7 @@ export default [
           {
             area: {
               code: 440783,
-              level: 3,
+              level: 2,
               name: '开平市',
               pid: 440700,
             },
@@ -19886,7 +18136,7 @@ export default [
           {
             area: {
               code: 440784,
-              level: 3,
+              level: 2,
               name: '鹤山市',
               pid: 440700,
             },
@@ -19895,7 +18145,7 @@ export default [
           {
             area: {
               code: 440785,
-              level: 3,
+              level: 2,
               name: '恩平市',
               pid: 440700,
             },
@@ -19911,15 +18161,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 440801,
-              level: 3,
-              name: '市辖区',
-              pid: 440800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 440802,
@@ -19977,7 +18218,7 @@ export default [
           {
             area: {
               code: 440881,
-              level: 3,
+              level: 2,
               name: '廉江市',
               pid: 440800,
             },
@@ -19986,7 +18227,7 @@ export default [
           {
             area: {
               code: 440882,
-              level: 3,
+              level: 2,
               name: '雷州市',
               pid: 440800,
             },
@@ -19995,7 +18236,7 @@ export default [
           {
             area: {
               code: 440883,
-              level: 3,
+              level: 2,
               name: '吴川市',
               pid: 440800,
             },
@@ -20011,15 +18252,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 440901,
-              level: 3,
-              name: '市辖区',
-              pid: 440900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 440902,
@@ -20041,7 +18273,7 @@ export default [
           {
             area: {
               code: 440981,
-              level: 3,
+              level: 2,
               name: '高州市',
               pid: 440900,
             },
@@ -20050,7 +18282,7 @@ export default [
           {
             area: {
               code: 440982,
-              level: 3,
+              level: 2,
               name: '化州市',
               pid: 440900,
             },
@@ -20059,7 +18291,7 @@ export default [
           {
             area: {
               code: 440983,
-              level: 3,
+              level: 2,
               name: '信宜市',
               pid: 440900,
             },
@@ -20075,15 +18307,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 441201,
-              level: 3,
-              name: '市辖区',
-              pid: 441200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 441202,
@@ -20150,7 +18373,7 @@ export default [
           {
             area: {
               code: 441284,
-              level: 3,
+              level: 2,
               name: '四会市',
               pid: 441200,
             },
@@ -20166,15 +18389,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 441301,
-              level: 3,
-              name: '市辖区',
-              pid: 441300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 441302,
@@ -20230,15 +18444,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 441401,
-              level: 3,
-              name: '市辖区',
-              pid: 441400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 441402,
@@ -20305,7 +18510,7 @@ export default [
           {
             area: {
               code: 441481,
-              level: 3,
+              level: 2,
               name: '兴宁市',
               pid: 441400,
             },
@@ -20321,15 +18526,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 441501,
-              level: 3,
-              name: '市辖区',
-              pid: 441500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 441502,
@@ -20360,7 +18556,7 @@ export default [
           {
             area: {
               code: 441581,
-              level: 3,
+              level: 2,
               name: '陆丰市',
               pid: 441500,
             },
@@ -20376,15 +18572,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 441601,
-              level: 3,
-              name: '市辖区',
-              pid: 441600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 441602,
@@ -20451,15 +18638,6 @@ export default [
         children: [
           {
             area: {
-              code: 441701,
-              level: 3,
-              name: '市辖区',
-              pid: 441700,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 441702,
               level: 3,
               name: '江城区',
@@ -20488,7 +18666,7 @@ export default [
           {
             area: {
               code: 441781,
-              level: 3,
+              level: 2,
               name: '阳春市',
               pid: 441700,
             },
@@ -20506,9 +18684,18 @@ export default [
         children: [
           {
             area: {
-              code: 441801,
-              level: 3,
-              name: '市辖区',
+              code: 441900,
+              level: 2,
+              name: '东莞市',
+              pid: 441800,
+            },
+            children: [],
+          },
+          {
+            area: {
+              code: 442000,
+              level: 2,
+              name: '中山市',
               pid: 441800,
             },
             children: [],
@@ -20570,7 +18757,7 @@ export default [
           {
             area: {
               code: 441881,
-              level: 3,
+              level: 2,
               name: '英德市',
               pid: 441800,
             },
@@ -20579,7 +18766,7 @@ export default [
           {
             area: {
               code: 441882,
-              level: 3,
+              level: 2,
               name: '连州市',
               pid: 441800,
             },
@@ -20589,30 +18776,12 @@ export default [
       },
       {
         area: {
-          code: 442000,
-          level: 2,
-          name: '中山市',
-          pid: 440000,
-        },
-        children: [],
-      },
-      {
-        area: {
           code: 445100,
           level: 2,
           name: '潮州市',
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 445101,
-              level: 3,
-              name: '市辖区',
-              pid: 445100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 445102,
@@ -20652,15 +18821,6 @@ export default [
         children: [
           {
             area: {
-              code: 445201,
-              level: 3,
-              name: '市辖区',
-              pid: 445200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 445202,
               level: 3,
               name: '榕城区',
@@ -20698,7 +18858,7 @@ export default [
           {
             area: {
               code: 445281,
-              level: 3,
+              level: 2,
               name: '普宁市',
               pid: 445200,
             },
@@ -20714,15 +18874,6 @@ export default [
           pid: 440000,
         },
         children: [
-          {
-            area: {
-              code: 445301,
-              level: 3,
-              name: '市辖区',
-              pid: 445300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 445302,
@@ -20762,22 +18913,13 @@ export default [
           {
             area: {
               code: 445381,
-              level: 3,
+              level: 2,
               name: '罗定市',
               pid: 445300,
             },
             children: [],
           },
         ],
-      },
-      {
-        area: {
-          code: 441900,
-          level: 2,
-          name: '东莞市',
-          pid: 440000,
-        },
-        children: [],
       },
     ],
   },
@@ -20797,15 +18939,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 450101,
-              level: 3,
-              name: '市辖区',
-              pid: 450100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 450102,
@@ -20926,15 +19059,6 @@ export default [
         children: [
           {
             area: {
-              code: 450201,
-              level: 3,
-              name: '市辖区',
-              pid: 450200,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 450202,
               level: 3,
               name: '城中区',
@@ -20971,7 +19095,7 @@ export default [
           },
           {
             area: {
-              code: 450206,
+              code: 450221,
               level: 3,
               name: '柳江区',
               pid: 450200,
@@ -21033,15 +19157,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 450301,
-              level: 3,
-              name: '市辖区',
-              pid: 450300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 450302,
@@ -21207,15 +19322,6 @@ export default [
         children: [
           {
             area: {
-              code: 450401,
-              level: 3,
-              name: '市辖区',
-              pid: 450400,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 450403,
               level: 3,
               name: '万秀区',
@@ -21271,7 +19377,7 @@ export default [
           {
             area: {
               code: 450481,
-              level: 3,
+              level: 2,
               name: '岑溪市',
               pid: 450400,
             },
@@ -21287,15 +19393,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 450501,
-              level: 3,
-              name: '市辖区',
-              pid: 450500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 450502,
@@ -21344,15 +19441,6 @@ export default [
         children: [
           {
             area: {
-              code: 450601,
-              level: 3,
-              name: '市辖区',
-              pid: 450600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 450602,
               level: 3,
               name: '港口区',
@@ -21381,7 +19469,7 @@ export default [
           {
             area: {
               code: 450681,
-              level: 3,
+              level: 2,
               name: '东兴市',
               pid: 450600,
             },
@@ -21397,15 +19485,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 450701,
-              level: 3,
-              name: '市辖区',
-              pid: 450700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 450702,
@@ -21454,15 +19533,6 @@ export default [
         children: [
           {
             area: {
-              code: 450801,
-              level: 3,
-              name: '市辖区',
-              pid: 450800,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 450802,
               level: 3,
               name: '港北区',
@@ -21500,7 +19570,7 @@ export default [
           {
             area: {
               code: 450881,
-              level: 3,
+              level: 2,
               name: '桂平市',
               pid: 450800,
             },
@@ -21516,15 +19586,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 450901,
-              level: 3,
-              name: '市辖区',
-              pid: 450900,
-            },
-            children: [],
-          },
           {
             area: {
               code: 450902,
@@ -21582,7 +19643,7 @@ export default [
           {
             area: {
               code: 450981,
-              level: 3,
+              level: 2,
               name: '北流市',
               pid: 450900,
             },
@@ -21598,15 +19659,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 451001,
-              level: 3,
-              name: '市辖区',
-              pid: 451000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 451002,
@@ -21709,7 +19761,7 @@ export default [
           {
             area: {
               code: 451081,
-              level: 3,
+              level: 2,
               name: '靖西市',
               pid: 451000,
             },
@@ -21725,15 +19777,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 451101,
-              level: 3,
-              name: '市辖区',
-              pid: 451100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 451102,
@@ -21789,15 +19832,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 451201,
-              level: 3,
-              name: '市辖区',
-              pid: 451200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 451202,
@@ -21891,7 +19925,7 @@ export default [
           {
             area: {
               code: 451281,
-              level: 3,
+              level: 2,
               name: '宜州市',
               pid: 451200,
             },
@@ -21907,15 +19941,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 451301,
-              level: 3,
-              name: '市辖区',
-              pid: 451300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 451302,
@@ -21964,7 +19989,7 @@ export default [
           {
             area: {
               code: 451381,
-              level: 3,
+              level: 2,
               name: '合山市',
               pid: 451300,
             },
@@ -21980,15 +20005,6 @@ export default [
           pid: 450000,
         },
         children: [
-          {
-            area: {
-              code: 451401,
-              level: 3,
-              name: '市辖区',
-              pid: 451400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 451402,
@@ -22046,7 +20062,7 @@ export default [
           {
             area: {
               code: 451481,
-              level: 3,
+              level: 2,
               name: '凭祥市',
               pid: 451400,
             },
@@ -22072,15 +20088,6 @@ export default [
           pid: 460000,
         },
         children: [
-          {
-            area: {
-              code: 460101,
-              level: 3,
-              name: '市辖区',
-              pid: 460100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 460105,
@@ -22127,15 +20134,6 @@ export default [
           pid: 460000,
         },
         children: [
-          {
-            area: {
-              code: 460201,
-              level: 3,
-              name: '市辖区',
-              pid: 460200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 460202,
@@ -22204,16 +20202,7 @@ export default [
             area: {
               code: 460323,
               level: 3,
-              name: '中沙群岛',
-              pid: 460300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 460324,
-              level: 3,
-              name: '永乐群岛',
+              name: '中沙群岛的岛礁及其海域',
               pid: 460300,
             },
             children: [],
@@ -22231,148 +20220,138 @@ export default [
       },
       {
         area: {
-          code: 469000,
+          code: 469001,
           level: 2,
-          name: '省直辖县级行政区',
+          name: '五指山市',
           pid: 460000,
         },
-        children: [
-          {
-            area: {
-              code: 469001,
-              level: 3,
-              name: '五指山市',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469002,
-              level: 3,
-              name: '琼海市',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469005,
-              level: 3,
-              name: '文昌市',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469006,
-              level: 3,
-              name: '万宁市',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469007,
-              level: 3,
-              name: '东方市',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469021,
-              level: 3,
-              name: '定安县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469022,
-              level: 3,
-              name: '屯昌县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469023,
-              level: 3,
-              name: '澄迈县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469024,
-              level: 3,
-              name: '临高县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469025,
-              level: 3,
-              name: '白沙黎族自治县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469026,
-              level: 3,
-              name: '昌江黎族自治县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469027,
-              level: 3,
-              name: '乐东黎族自治县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469028,
-              level: 3,
-              name: '陵水黎族自治县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469029,
-              level: 3,
-              name: '保亭黎族苗族自治县',
-              pid: 469000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 469030,
-              level: 3,
-              name: '琼中黎族苗族自治县',
-              pid: 469000,
-            },
-            children: [],
-          },
-        ],
+        children: [],
+      },
+      {
+        area: {
+          code: 469002,
+          level: 2,
+          name: '琼海市',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469005,
+          level: 2,
+          name: '文昌市',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469006,
+          level: 2,
+          name: '万宁市',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469007,
+          level: 2,
+          name: '东方市',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469021,
+          level: 2,
+          name: '定安县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469022,
+          level: 2,
+          name: '屯昌县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469023,
+          level: 2,
+          name: '澄迈县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469024,
+          level: 2,
+          name: '临高县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469025,
+          level: 2,
+          name: '白沙黎族自治县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469026,
+          level: 2,
+          name: '昌江黎族自治县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469027,
+          level: 2,
+          name: '乐东黎族自治县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469028,
+          level: 2,
+          name: '陵水黎族自治县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469029,
+          level: 2,
+          name: '保亭黎族苗族自治县',
+          pid: 460000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 469030,
+          level: 2,
+          name: '琼中黎族苗族自治县',
+          pid: 460000,
+        },
+        children: [],
       },
     ],
   },
@@ -22392,6 +20371,15 @@ export default [
           pid: 500000,
         },
         children: [
+          {
+            area: {
+              code: 500200,
+              level: 2,
+              name: '重庆市郊县',
+              pid: 500100,
+            },
+            children: [],
+          },
           {
             area: {
               code: 500101,
@@ -22608,22 +20596,12 @@ export default [
             },
             children: [],
           },
-        ],
-      },
-      {
-        area: {
-          code: 500200,
-          level: 2,
-          name: '重庆市郊县',
-          pid: 500000,
-        },
-        children: [
           {
             area: {
               code: 500228,
               level: 3,
-              name: '梁平县',
-              pid: 500200,
+              name: '梁平区',
+              pid: 500100,
             },
             children: [],
           },
@@ -22632,7 +20610,7 @@ export default [
               code: 500229,
               level: 3,
               name: '城口县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22641,7 +20619,7 @@ export default [
               code: 500230,
               level: 3,
               name: '丰都县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22650,7 +20628,7 @@ export default [
               code: 500231,
               level: 3,
               name: '垫江县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22658,8 +20636,8 @@ export default [
             area: {
               code: 500232,
               level: 3,
-              name: '武隆县',
-              pid: 500200,
+              name: '武隆区',
+              pid: 500100,
             },
             children: [],
           },
@@ -22668,7 +20646,7 @@ export default [
               code: 500233,
               level: 3,
               name: '忠县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22677,7 +20655,7 @@ export default [
               code: 500235,
               level: 3,
               name: '云阳县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22686,7 +20664,7 @@ export default [
               code: 500236,
               level: 3,
               name: '奉节县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22695,7 +20673,7 @@ export default [
               code: 500237,
               level: 3,
               name: '巫山县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22704,7 +20682,7 @@ export default [
               code: 500238,
               level: 3,
               name: '巫溪县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22713,7 +20691,7 @@ export default [
               code: 500240,
               level: 3,
               name: '石柱土家族自治县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22722,7 +20700,7 @@ export default [
               code: 500241,
               level: 3,
               name: '秀山土家族苗族自治县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22731,7 +20709,7 @@ export default [
               code: 500242,
               level: 3,
               name: '酉阳土家族苗族自治县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22740,7 +20718,7 @@ export default [
               code: 500243,
               level: 3,
               name: '彭水苗族土家族自治县',
-              pid: 500200,
+              pid: 500100,
             },
             children: [],
           },
@@ -22764,15 +20742,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 510101,
-              level: 3,
-              name: '市辖区',
-              pid: 510100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 510104,
@@ -22876,7 +20845,7 @@ export default [
             area: {
               code: 510124,
               level: 3,
-              name: '郫县',
+              name: '郫都区',
               pid: 510100,
             },
             children: [],
@@ -22910,8 +20879,17 @@ export default [
           },
           {
             area: {
+              code: 510180,
+              level: 2,
+              name: '简阳市',
+              pid: 510100,
+            },
+            children: [],
+          },
+          {
+            area: {
               code: 510181,
-              level: 3,
+              level: 2,
               name: '都江堰市',
               pid: 510100,
             },
@@ -22920,7 +20898,7 @@ export default [
           {
             area: {
               code: 510182,
-              level: 3,
+              level: 2,
               name: '彭州市',
               pid: 510100,
             },
@@ -22929,7 +20907,7 @@ export default [
           {
             area: {
               code: 510183,
-              level: 3,
+              level: 2,
               name: '邛崃市',
               pid: 510100,
             },
@@ -22938,17 +20916,8 @@ export default [
           {
             area: {
               code: 510184,
-              level: 3,
+              level: 2,
               name: '崇州市',
-              pid: 510100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 510185,
-              level: 3,
-              name: '简阳市',
               pid: 510100,
             },
             children: [],
@@ -22963,15 +20932,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 510301,
-              level: 3,
-              name: '市辖区',
-              pid: 510300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 510302,
@@ -23038,15 +20998,6 @@ export default [
         children: [
           {
             area: {
-              code: 510401,
-              level: 3,
-              name: '市辖区',
-              pid: 510400,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 510402,
               level: 3,
               name: '东区',
@@ -23100,15 +21051,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 510501,
-              level: 3,
-              name: '市辖区',
-              pid: 510500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 510502,
@@ -23184,15 +21126,6 @@ export default [
         children: [
           {
             area: {
-              code: 510601,
-              level: 3,
-              name: '市辖区',
-              pid: 510600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 510603,
               level: 3,
               name: '旌阳区',
@@ -23221,7 +21154,7 @@ export default [
           {
             area: {
               code: 510681,
-              level: 3,
+              level: 2,
               name: '广汉市',
               pid: 510600,
             },
@@ -23230,7 +21163,7 @@ export default [
           {
             area: {
               code: 510682,
-              level: 3,
+              level: 2,
               name: '什邡市',
               pid: 510600,
             },
@@ -23239,7 +21172,7 @@ export default [
           {
             area: {
               code: 510683,
-              level: 3,
+              level: 2,
               name: '绵竹市',
               pid: 510600,
             },
@@ -23255,15 +21188,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 510701,
-              level: 3,
-              name: '市辖区',
-              pid: 510700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 510703,
@@ -23339,7 +21263,7 @@ export default [
           {
             area: {
               code: 510781,
-              level: 3,
+              level: 2,
               name: '江油市',
               pid: 510700,
             },
@@ -23355,15 +21279,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 510801,
-              level: 3,
-              name: '市辖区',
-              pid: 510800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 510802,
@@ -23439,15 +21354,6 @@ export default [
         children: [
           {
             area: {
-              code: 510901,
-              level: 3,
-              name: '市辖区',
-              pid: 510900,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 510903,
               level: 3,
               name: '船山区',
@@ -23503,15 +21409,6 @@ export default [
         children: [
           {
             area: {
-              code: 511001,
-              level: 3,
-              name: '市辖区',
-              pid: 511000,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 511002,
               level: 3,
               name: '市中区',
@@ -23565,15 +21462,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 511101,
-              level: 3,
-              name: '市辖区',
-              pid: 511100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 511102,
@@ -23667,7 +21555,7 @@ export default [
           {
             area: {
               code: 511181,
-              level: 3,
+              level: 2,
               name: '峨眉山市',
               pid: 511100,
             },
@@ -23683,15 +21571,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 511301,
-              level: 3,
-              name: '市辖区',
-              pid: 511300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 511302,
@@ -23767,7 +21646,7 @@ export default [
           {
             area: {
               code: 511381,
-              level: 3,
+              level: 2,
               name: '阆中市',
               pid: 511300,
             },
@@ -23783,15 +21662,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 511401,
-              level: 3,
-              name: '市辖区',
-              pid: 511400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 511402,
@@ -23856,15 +21726,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 511501,
-              level: 3,
-              name: '市辖区',
-              pid: 511500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 511502,
@@ -23967,15 +21828,6 @@ export default [
         children: [
           {
             area: {
-              code: 511601,
-              level: 3,
-              name: '市辖区',
-              pid: 511600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 511602,
               level: 3,
               name: '广安区',
@@ -24022,7 +21874,7 @@ export default [
           {
             area: {
               code: 511681,
-              level: 3,
+              level: 2,
               name: '华蓥市',
               pid: 511600,
             },
@@ -24038,15 +21890,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 511701,
-              level: 3,
-              name: '市辖区',
-              pid: 511700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 511702,
@@ -24104,7 +21947,7 @@ export default [
           {
             area: {
               code: 511781,
-              level: 3,
+              level: 2,
               name: '万源市',
               pid: 511700,
             },
@@ -24120,15 +21963,6 @@ export default [
           pid: 510000,
         },
         children: [
-          {
-            area: {
-              code: 511801,
-              level: 3,
-              name: '市辖区',
-              pid: 511800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 511802,
@@ -24213,15 +22047,6 @@ export default [
         children: [
           {
             area: {
-              code: 511901,
-              level: 3,
-              name: '市辖区',
-              pid: 511900,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 511902,
               level: 3,
               name: '巴州区',
@@ -24277,15 +22102,6 @@ export default [
         children: [
           {
             area: {
-              code: 512001,
-              level: 3,
-              name: '市辖区',
-              pid: 512000,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 512002,
               level: 3,
               name: '雁江区',
@@ -24324,7 +22140,7 @@ export default [
           {
             area: {
               code: 513201,
-              level: 3,
+              level: 2,
               name: '马尔康市',
               pid: 513200,
             },
@@ -24451,7 +22267,7 @@ export default [
           {
             area: {
               code: 513301,
-              level: 3,
+              level: 2,
               name: '康定市',
               pid: 513300,
             },
@@ -24623,7 +22439,7 @@ export default [
           {
             area: {
               code: 513401,
-              level: 3,
+              level: 2,
               name: '西昌市',
               pid: 513400,
             },
@@ -24795,15 +22611,6 @@ export default [
         children: [
           {
             area: {
-              code: 520101,
-              level: 3,
-              name: '市辖区',
-              pid: 520100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 520102,
               level: 3,
               name: '南明区',
@@ -24886,7 +22693,7 @@ export default [
           {
             area: {
               code: 520181,
-              level: 3,
+              level: 2,
               name: '清镇市',
               pid: 520100,
             },
@@ -24948,15 +22755,6 @@ export default [
           pid: 520000,
         },
         children: [
-          {
-            area: {
-              code: 520301,
-              level: 3,
-              name: '市辖区',
-              pid: 520300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 520302,
@@ -25068,7 +22866,7 @@ export default [
           {
             area: {
               code: 520381,
-              level: 3,
+              level: 2,
               name: '赤水市',
               pid: 520300,
             },
@@ -25077,7 +22875,7 @@ export default [
           {
             area: {
               code: 520382,
-              level: 3,
+              level: 2,
               name: '仁怀市',
               pid: 520300,
             },
@@ -25093,15 +22891,6 @@ export default [
           pid: 520000,
         },
         children: [
-          {
-            area: {
-              code: 520401,
-              level: 3,
-              name: '市辖区',
-              pid: 520400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 520402,
@@ -25166,15 +22955,6 @@ export default [
           pid: 520000,
         },
         children: [
-          {
-            area: {
-              code: 520501,
-              level: 3,
-              name: '市辖区',
-              pid: 520500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 520502,
@@ -25257,15 +23037,6 @@ export default [
           pid: 520000,
         },
         children: [
-          {
-            area: {
-              code: 520601,
-              level: 3,
-              name: '市辖区',
-              pid: 520600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 520602,
@@ -25369,7 +23140,7 @@ export default [
           {
             area: {
               code: 522301,
-              level: 3,
+              level: 2,
               name: '兴义市',
               pid: 522300,
             },
@@ -25451,7 +23222,7 @@ export default [
           {
             area: {
               code: 522601,
-              level: 3,
+              level: 2,
               name: '凯里市',
               pid: 522600,
             },
@@ -25605,7 +23376,7 @@ export default [
           {
             area: {
               code: 522701,
-              level: 3,
+              level: 2,
               name: '都匀市',
               pid: 522700,
             },
@@ -25614,7 +23385,7 @@ export default [
           {
             area: {
               code: 522702,
-              level: 3,
+              level: 2,
               name: '福泉市',
               pid: 522700,
             },
@@ -25732,15 +23503,6 @@ export default [
         children: [
           {
             area: {
-              code: 530101,
-              level: 3,
-              name: '市辖区',
-              pid: 530100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 530102,
               level: 3,
               name: '五华区',
@@ -25797,7 +23559,7 @@ export default [
             area: {
               code: 530122,
               level: 3,
-              name: '晋宁县',
+              name: '晋宁区',
               pid: 530100,
             },
             children: [],
@@ -25859,7 +23621,7 @@ export default [
           {
             area: {
               code: 530181,
-              level: 3,
+              level: 2,
               name: '安宁市',
               pid: 530100,
             },
@@ -25875,15 +23637,6 @@ export default [
           pid: 530000,
         },
         children: [
-          {
-            area: {
-              code: 530301,
-              level: 3,
-              name: '市辖区',
-              pid: 530300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 530302,
@@ -25959,7 +23712,7 @@ export default [
           {
             area: {
               code: 530381,
-              level: 3,
+              level: 2,
               name: '宣威市',
               pid: 530300,
             },
@@ -25975,15 +23728,6 @@ export default [
           pid: 530000,
         },
         children: [
-          {
-            area: {
-              code: 530401,
-              level: 3,
-              name: '市辖区',
-              pid: 530400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 530402,
@@ -26077,15 +23821,6 @@ export default [
         children: [
           {
             area: {
-              code: 530501,
-              level: 3,
-              name: '市辖区',
-              pid: 530500,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 530502,
               level: 3,
               name: '隆阳区',
@@ -26123,7 +23858,7 @@ export default [
           {
             area: {
               code: 530581,
-              level: 3,
+              level: 2,
               name: '腾冲市',
               pid: 530500,
             },
@@ -26139,15 +23874,6 @@ export default [
           pid: 530000,
         },
         children: [
-          {
-            area: {
-              code: 530601,
-              level: 3,
-              name: '市辖区',
-              pid: 530600,
-            },
-            children: [],
-          },
           {
             area: {
               code: 530602,
@@ -26259,15 +23985,6 @@ export default [
         children: [
           {
             area: {
-              code: 530701,
-              level: 3,
-              name: '市辖区',
-              pid: 530700,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 530702,
               level: 3,
               name: '古城区',
@@ -26321,15 +24038,6 @@ export default [
           pid: 530000,
         },
         children: [
-          {
-            area: {
-              code: 530801,
-              level: 3,
-              name: '市辖区',
-              pid: 530800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 530802,
@@ -26432,15 +24140,6 @@ export default [
         children: [
           {
             area: {
-              code: 530901,
-              level: 3,
-              name: '市辖区',
-              pid: 530900,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 530902,
               level: 3,
               name: '临翔区',
@@ -26524,7 +24223,7 @@ export default [
           {
             area: {
               code: 532301,
-              level: 3,
+              level: 2,
               name: '楚雄市',
               pid: 532300,
             },
@@ -26624,7 +24323,7 @@ export default [
           {
             area: {
               code: 532501,
-              level: 3,
+              level: 2,
               name: '个旧市',
               pid: 532500,
             },
@@ -26633,7 +24332,7 @@ export default [
           {
             area: {
               code: 532502,
-              level: 3,
+              level: 2,
               name: '开远市',
               pid: 532500,
             },
@@ -26642,7 +24341,7 @@ export default [
           {
             area: {
               code: 532503,
-              level: 3,
+              level: 2,
               name: '蒙自市',
               pid: 532500,
             },
@@ -26651,7 +24350,7 @@ export default [
           {
             area: {
               code: 532504,
-              level: 3,
+              level: 2,
               name: '弥勒市',
               pid: 532500,
             },
@@ -26751,7 +24450,7 @@ export default [
           {
             area: {
               code: 532601,
-              level: 3,
+              level: 2,
               name: '文山市',
               pid: 532600,
             },
@@ -26833,7 +24532,7 @@ export default [
           {
             area: {
               code: 532801,
-              level: 3,
+              level: 2,
               name: '景洪市',
               pid: 532800,
             },
@@ -26870,7 +24569,7 @@ export default [
           {
             area: {
               code: 532901,
-              level: 3,
+              level: 2,
               name: '大理市',
               pid: 532900,
             },
@@ -26988,7 +24687,7 @@ export default [
           {
             area: {
               code: 533102,
-              level: 3,
+              level: 2,
               name: '瑞丽市',
               pid: 533100,
             },
@@ -26997,7 +24696,7 @@ export default [
           {
             area: {
               code: 533103,
-              level: 3,
+              level: 2,
               name: '芒市',
               pid: 533100,
             },
@@ -27043,7 +24742,7 @@ export default [
           {
             area: {
               code: 533301,
-              level: 3,
+              level: 2,
               name: '泸水市',
               pid: 533300,
             },
@@ -27089,7 +24788,7 @@ export default [
           {
             area: {
               code: 533401,
-              level: 3,
+              level: 2,
               name: '香格里拉市',
               pid: 533400,
             },
@@ -27133,15 +24832,6 @@ export default [
           pid: 540000,
         },
         children: [
-          {
-            area: {
-              code: 540101,
-              level: 3,
-              name: '市辖区',
-              pid: 540100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 540102,
@@ -27580,15 +25270,6 @@ export default [
         children: [
           {
             area: {
-              code: 540501,
-              level: 3,
-              name: '市辖区',
-              pid: 540500,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 540502,
               level: 3,
               name: '乃东区',
@@ -27899,15 +25580,6 @@ export default [
         children: [
           {
             area: {
-              code: 610101,
-              level: 3,
-              name: '市辖区',
-              pid: 610100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 610102,
               level: 3,
               name: '新城区',
@@ -28018,7 +25690,7 @@ export default [
             area: {
               code: 610125,
               level: 3,
-              name: '户县',
+              name: '鄠邑区',
               pid: 610100,
             },
             children: [],
@@ -28033,15 +25705,6 @@ export default [
           pid: 610000,
         },
         children: [
-          {
-            area: {
-              code: 610201,
-              level: 3,
-              name: '市辖区',
-              pid: 610200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 610202,
@@ -28088,15 +25751,6 @@ export default [
           pid: 610000,
         },
         children: [
-          {
-            area: {
-              code: 610301,
-              level: 3,
-              name: '市辖区',
-              pid: 610300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 610302,
@@ -28217,15 +25871,6 @@ export default [
         children: [
           {
             area: {
-              code: 610401,
-              level: 3,
-              name: '市辖区',
-              pid: 610400,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 610402,
               level: 3,
               name: '秦都区',
@@ -28344,7 +25989,7 @@ export default [
           {
             area: {
               code: 610481,
-              level: 3,
+              level: 2,
               name: '兴平市',
               pid: 610400,
             },
@@ -28360,15 +26005,6 @@ export default [
           pid: 610000,
         },
         children: [
-          {
-            area: {
-              code: 610501,
-              level: 3,
-              name: '市辖区',
-              pid: 610500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 610502,
@@ -28453,7 +26089,7 @@ export default [
           {
             area: {
               code: 610581,
-              level: 3,
+              level: 2,
               name: '韩城市',
               pid: 610500,
             },
@@ -28462,7 +26098,7 @@ export default [
           {
             area: {
               code: 610582,
-              level: 3,
+              level: 2,
               name: '华阴市',
               pid: 610500,
             },
@@ -28480,27 +26116,9 @@ export default [
         children: [
           {
             area: {
-              code: 610601,
-              level: 3,
-              name: '市辖区',
-              pid: 610600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 610602,
               level: 3,
               name: '宝塔区',
-              pid: 610600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 610603,
-              level: 3,
-              name: '安塞区',
               pid: 610600,
             },
             children: [],
@@ -28528,6 +26146,15 @@ export default [
               code: 610623,
               level: 3,
               name: '子长县',
+              pid: 610600,
+            },
+            children: [],
+          },
+          {
+            area: {
+              code: 610624,
+              level: 3,
+              name: '安塞区',
               pid: 610600,
             },
             children: [],
@@ -28614,15 +26241,6 @@ export default [
           pid: 610000,
         },
         children: [
-          {
-            area: {
-              code: 610701,
-              level: 3,
-              name: '市辖区',
-              pid: 610700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 610702,
@@ -28732,15 +26350,6 @@ export default [
           pid: 610000,
         },
         children: [
-          {
-            area: {
-              code: 610801,
-              level: 3,
-              name: '市辖区',
-              pid: 610800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 610802,
@@ -28861,15 +26470,6 @@ export default [
         children: [
           {
             area: {
-              code: 610901,
-              level: 3,
-              name: '市辖区',
-              pid: 610900,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 610902,
               level: 3,
               name: '汉滨区',
@@ -28970,15 +26570,6 @@ export default [
         children: [
           {
             area: {
-              code: 611001,
-              level: 3,
-              name: '市辖区',
-              pid: 611000,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 611002,
               level: 3,
               name: '商州区',
@@ -29062,15 +26653,6 @@ export default [
         children: [
           {
             area: {
-              code: 620101,
-              level: 3,
-              name: '市辖区',
-              pid: 620100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 620102,
               level: 3,
               name: '城关区',
@@ -29150,17 +26732,7 @@ export default [
           name: '嘉峪关市',
           pid: 620000,
         },
-        children: [
-          {
-            area: {
-              code: 620201,
-              level: 3,
-              name: '市辖区',
-              pid: 620200,
-            },
-            children: [],
-          },
-        ],
+        children: [],
       },
       {
         area: {
@@ -29170,15 +26742,6 @@ export default [
           pid: 620000,
         },
         children: [
-          {
-            area: {
-              code: 620301,
-              level: 3,
-              name: '市辖区',
-              pid: 620300,
-            },
-            children: [],
-          },
           {
             area: {
               code: 620302,
@@ -29207,15 +26770,6 @@ export default [
           pid: 620000,
         },
         children: [
-          {
-            area: {
-              code: 620401,
-              level: 3,
-              name: '市辖区',
-              pid: 620400,
-            },
-            children: [],
-          },
           {
             area: {
               code: 620402,
@@ -29271,15 +26825,6 @@ export default [
           pid: 620000,
         },
         children: [
-          {
-            area: {
-              code: 620501,
-              level: 3,
-              name: '市辖区',
-              pid: 620500,
-            },
-            children: [],
-          },
           {
             area: {
               code: 620502,
@@ -29355,15 +26900,6 @@ export default [
         children: [
           {
             area: {
-              code: 620601,
-              level: 3,
-              name: '市辖区',
-              pid: 620600,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 620602,
               level: 3,
               name: '凉州区',
@@ -29408,15 +26944,6 @@ export default [
           pid: 620000,
         },
         children: [
-          {
-            area: {
-              code: 620701,
-              level: 3,
-              name: '市辖区',
-              pid: 620700,
-            },
-            children: [],
-          },
           {
             area: {
               code: 620702,
@@ -29481,15 +27008,6 @@ export default [
           pid: 620000,
         },
         children: [
-          {
-            area: {
-              code: 620801,
-              level: 3,
-              name: '市辖区',
-              pid: 620800,
-            },
-            children: [],
-          },
           {
             area: {
               code: 620802,
@@ -29565,15 +27083,6 @@ export default [
         children: [
           {
             area: {
-              code: 620901,
-              level: 3,
-              name: '市辖区',
-              pid: 620900,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 620902,
               level: 3,
               name: '肃州区',
@@ -29620,7 +27129,7 @@ export default [
           {
             area: {
               code: 620981,
-              level: 3,
+              level: 2,
               name: '玉门市',
               pid: 620900,
             },
@@ -29629,7 +27138,7 @@ export default [
           {
             area: {
               code: 620982,
-              level: 3,
+              level: 2,
               name: '敦煌市',
               pid: 620900,
             },
@@ -29645,15 +27154,6 @@ export default [
           pid: 620000,
         },
         children: [
-          {
-            area: {
-              code: 621001,
-              level: 3,
-              name: '市辖区',
-              pid: 621000,
-            },
-            children: [],
-          },
           {
             area: {
               code: 621002,
@@ -29738,15 +27238,6 @@ export default [
         children: [
           {
             area: {
-              code: 621101,
-              level: 3,
-              name: '市辖区',
-              pid: 621100,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 621102,
               level: 3,
               name: '安定区',
@@ -29818,15 +27309,6 @@ export default [
           pid: 620000,
         },
         children: [
-          {
-            area: {
-              code: 621201,
-              level: 3,
-              name: '市辖区',
-              pid: 621200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 621202,
@@ -29921,7 +27403,7 @@ export default [
           {
             area: {
               code: 622901,
-              level: 3,
+              level: 2,
               name: '临夏市',
               pid: 622900,
             },
@@ -30003,7 +27485,7 @@ export default [
           {
             area: {
               code: 623001,
-              level: 3,
+              level: 2,
               name: '合作市',
               pid: 623000,
             },
@@ -30092,15 +27574,6 @@ export default [
           pid: 630000,
         },
         children: [
-          {
-            area: {
-              code: 630101,
-              level: 3,
-              name: '市辖区',
-              pid: 630100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 630102,
@@ -30225,52 +27698,6 @@ export default [
               level: 3,
               name: '循化撒拉族自治县',
               pid: 630200,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 632200,
-          level: 2,
-          name: '海北藏族自治州',
-          pid: 630000,
-        },
-        children: [
-          {
-            area: {
-              code: 632221,
-              level: 3,
-              name: '门源回族自治县',
-              pid: 632200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 632222,
-              level: 3,
-              name: '祁连县',
-              pid: 632200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 632223,
-              level: 3,
-              name: '海晏县',
-              pid: 632200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 632224,
-              level: 3,
-              name: '刚察县',
-              pid: 632200,
             },
             children: [],
           },
@@ -30452,7 +27879,7 @@ export default [
           {
             area: {
               code: 632701,
-              level: 3,
+              level: 2,
               name: '玉树市',
               pid: 632700,
             },
@@ -30516,7 +27943,7 @@ export default [
           {
             area: {
               code: 632801,
-              level: 3,
+              level: 2,
               name: '格尔木市',
               pid: 632800,
             },
@@ -30525,7 +27952,7 @@ export default [
           {
             area: {
               code: 632802,
-              level: 3,
+              level: 2,
               name: '德令哈市',
               pid: 632800,
             },
@@ -30558,6 +27985,15 @@ export default [
             },
             children: [],
           },
+          {
+            area: {
+              code: 632825,
+              level: 3,
+              name: '海西蒙古族藏族自治州直辖',
+              pid: 632800,
+            },
+            children: [],
+          },
         ],
       },
     ],
@@ -30578,15 +28014,6 @@ export default [
           pid: 640000,
         },
         children: [
-          {
-            area: {
-              code: 640101,
-              level: 3,
-              name: '市辖区',
-              pid: 640100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 640104,
@@ -30635,7 +28062,7 @@ export default [
           {
             area: {
               code: 640181,
-              level: 3,
+              level: 2,
               name: '灵武市',
               pid: 640100,
             },
@@ -30651,15 +28078,6 @@ export default [
           pid: 640000,
         },
         children: [
-          {
-            area: {
-              code: 640201,
-              level: 3,
-              name: '市辖区',
-              pid: 640200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 640202,
@@ -30699,15 +28117,6 @@ export default [
         children: [
           {
             area: {
-              code: 640301,
-              level: 3,
-              name: '市辖区',
-              pid: 640300,
-            },
-            children: [],
-          },
-          {
-            area: {
               code: 640302,
               level: 3,
               name: '利通区',
@@ -30745,7 +28154,7 @@ export default [
           {
             area: {
               code: 640381,
-              level: 3,
+              level: 2,
               name: '青铜峡市',
               pid: 640300,
             },
@@ -30760,108 +28169,7 @@ export default [
           name: '固原市',
           pid: 640000,
         },
-        children: [
-          {
-            area: {
-              code: 640401,
-              level: 3,
-              name: '市辖区',
-              pid: 640400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640402,
-              level: 3,
-              name: '原州区',
-              pid: 640400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640422,
-              level: 3,
-              name: '西吉县',
-              pid: 640400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640423,
-              level: 3,
-              name: '隆德县',
-              pid: 640400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640424,
-              level: 3,
-              name: '泾源县',
-              pid: 640400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640425,
-              level: 3,
-              name: '彭阳县',
-              pid: 640400,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 640500,
-          level: 2,
-          name: '中卫市',
-          pid: 640000,
-        },
-        children: [
-          {
-            area: {
-              code: 640501,
-              level: 3,
-              name: '市辖区',
-              pid: 640500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640502,
-              level: 3,
-              name: '沙坡头区',
-              pid: 640500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640521,
-              level: 3,
-              name: '中宁县',
-              pid: 640500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 640522,
-              level: 3,
-              name: '海原县',
-              pid: 640500,
-            },
-            children: [],
-          },
-        ],
+        children: [],
       },
     ],
   },
@@ -30881,15 +28189,6 @@ export default [
           pid: 650000,
         },
         children: [
-          {
-            area: {
-              code: 650101,
-              level: 3,
-              name: '市辖区',
-              pid: 650100,
-            },
-            children: [],
-          },
           {
             area: {
               code: 650102,
@@ -30972,15 +28271,6 @@ export default [
           pid: 650000,
         },
         children: [
-          {
-            area: {
-              code: 650201,
-              level: 3,
-              name: '市辖区',
-              pid: 650200,
-            },
-            children: [],
-          },
           {
             area: {
               code: 650202,
@@ -31104,7 +28394,7 @@ export default [
           {
             area: {
               code: 652301,
-              level: 3,
+              level: 2,
               name: '昌吉市',
               pid: 652300,
             },
@@ -31113,7 +28403,7 @@ export default [
           {
             area: {
               code: 652302,
-              level: 3,
+              level: 2,
               name: '阜康市',
               pid: 652300,
             },
@@ -31177,7 +28467,7 @@ export default [
           {
             area: {
               code: 652701,
-              level: 3,
+              level: 2,
               name: '博乐市',
               pid: 652700,
             },
@@ -31186,7 +28476,7 @@ export default [
           {
             area: {
               code: 652702,
-              level: 3,
+              level: 2,
               name: '阿拉山口市',
               pid: 652700,
             },
@@ -31223,7 +28513,7 @@ export default [
           {
             area: {
               code: 652801,
-              level: 3,
+              level: 2,
               name: '库尔勒市',
               pid: 652800,
             },
@@ -31314,7 +28604,7 @@ export default [
           {
             area: {
               code: 652901,
-              level: 3,
+              level: 2,
               name: '阿克苏市',
               pid: 652900,
             },
@@ -31405,7 +28695,7 @@ export default [
           {
             area: {
               code: 653001,
-              level: 3,
+              level: 2,
               name: '阿图什市',
               pid: 653000,
             },
@@ -31451,7 +28741,7 @@ export default [
           {
             area: {
               code: 653101,
-              level: 3,
+              level: 2,
               name: '喀什市',
               pid: 653100,
             },
@@ -31569,7 +28859,7 @@ export default [
           {
             area: {
               code: 653201,
-              level: 3,
+              level: 2,
               name: '和田市',
               pid: 653200,
             },
@@ -31651,7 +28941,7 @@ export default [
           {
             area: {
               code: 654002,
-              level: 3,
+              level: 2,
               name: '伊宁市',
               pid: 654000,
             },
@@ -31660,7 +28950,7 @@ export default [
           {
             area: {
               code: 654003,
-              level: 3,
+              level: 2,
               name: '奎屯市',
               pid: 654000,
             },
@@ -31669,7 +28959,7 @@ export default [
           {
             area: {
               code: 654004,
-              level: 3,
+              level: 2,
               name: '霍尔果斯市',
               pid: 654000,
             },
@@ -31760,7 +29050,7 @@ export default [
           {
             area: {
               code: 654201,
-              level: 3,
+              level: 2,
               name: '塔城市',
               pid: 654200,
             },
@@ -31769,7 +29059,7 @@ export default [
           {
             area: {
               code: 654202,
-              level: 3,
+              level: 2,
               name: '乌苏市',
               pid: 654200,
             },
@@ -31833,7 +29123,7 @@ export default [
           {
             area: {
               code: 654301,
-              level: 3,
+              level: 2,
               name: '阿勒泰市',
               pid: 654300,
             },
@@ -31897,58 +29187,84 @@ export default [
       },
       {
         area: {
-          code: 659000,
+          code: 659001,
           level: 2,
-          name: '自治区直辖县级行政区划',
+          name: '石河子市',
           pid: 650000,
         },
-        children: [
-          {
-            area: {
-              code: 659001,
-              level: 3,
-              name: '石河子市',
-              pid: 659000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 659002,
-              level: 3,
-              name: '阿拉尔市',
-              pid: 659000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 659003,
-              level: 3,
-              name: '图木舒克市',
-              pid: 659000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 659004,
-              level: 3,
-              name: '五家渠市',
-              pid: 659000,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 659006,
-              level: 3,
-              name: '铁门关市',
-              pid: 659000,
-            },
-            children: [],
-          },
-        ],
+        children: [],
+      },
+      {
+        area: {
+          code: 659002,
+          level: 2,
+          name: '阿拉尔市',
+          pid: 650000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 659003,
+          level: 2,
+          name: '图木舒克市',
+          pid: 650000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 659004,
+          level: 2,
+          name: '五家渠市',
+          pid: 650000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 659005,
+          level: 2,
+          name: '北屯市',
+          pid: 650000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 659006,
+          level: 2,
+          name: '铁门关市',
+          pid: 650000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 659007,
+          level: 2,
+          name: '双河市',
+          pid: 650000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 659008,
+          level: 2,
+          name: '可克达拉市',
+          pid: 650000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 659009,
+          level: 2,
+          name: '昆玉市',
+          pid: 650000,
+        },
+        children: [],
       },
     ],
   },
@@ -31959,1736 +29275,7 @@ export default [
       name: '台湾省',
       pid: 0,
     },
-    children: [
-      {
-        area: {
-          code: 710100,
-          level: 2,
-          name: '台北市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710101,
-              level: 3,
-              name: '中正区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710102,
-              level: 3,
-              name: '大同区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710103,
-              level: 3,
-              name: '中山区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710104,
-              level: 3,
-              name: '万华区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710105,
-              level: 3,
-              name: '信义区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710106,
-              level: 3,
-              name: '松山区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710107,
-              level: 3,
-              name: '大安区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710108,
-              level: 3,
-              name: '南港区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710109,
-              level: 3,
-              name: '北投区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710110,
-              level: 3,
-              name: '内湖区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710111,
-              level: 3,
-              name: '士林区',
-              pid: 710100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710112,
-              level: 3,
-              name: '文山区',
-              pid: 710100,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710200,
-          level: 2,
-          name: '新北市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710201,
-              level: 3,
-              name: '板桥区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710202,
-              level: 3,
-              name: '土城区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710203,
-              level: 3,
-              name: '新庄区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710204,
-              level: 3,
-              name: '新店区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710205,
-              level: 3,
-              name: '深坑区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710206,
-              level: 3,
-              name: '石碇区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710207,
-              level: 3,
-              name: '坪林区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710208,
-              level: 3,
-              name: '乌来区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710209,
-              level: 3,
-              name: '五股区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710210,
-              level: 3,
-              name: '八里区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710211,
-              level: 3,
-              name: '林口区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710212,
-              level: 3,
-              name: '淡水区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710213,
-              level: 3,
-              name: '中和区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710214,
-              level: 3,
-              name: '永和区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710215,
-              level: 3,
-              name: '三重区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710216,
-              level: 3,
-              name: '芦洲区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710217,
-              level: 3,
-              name: '泰山区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710218,
-              level: 3,
-              name: '树林区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710219,
-              level: 3,
-              name: '莺歌区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710220,
-              level: 3,
-              name: '三峡区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710221,
-              level: 3,
-              name: '汐止区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710222,
-              level: 3,
-              name: '金山区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710223,
-              level: 3,
-              name: '万里区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710224,
-              level: 3,
-              name: '三芝区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710225,
-              level: 3,
-              name: '石门区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710226,
-              level: 3,
-              name: '瑞芳区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710227,
-              level: 3,
-              name: '贡寮区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710228,
-              level: 3,
-              name: '双溪区',
-              pid: 710200,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710229,
-              level: 3,
-              name: '平溪区',
-              pid: 710200,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710300,
-          level: 2,
-          name: '桃园市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710301,
-              level: 3,
-              name: '桃园区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710302,
-              level: 3,
-              name: '中坜区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710303,
-              level: 3,
-              name: '平镇区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710304,
-              level: 3,
-              name: '八德区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710305,
-              level: 3,
-              name: '杨梅区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710306,
-              level: 3,
-              name: '芦竹区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710307,
-              level: 3,
-              name: '大溪区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710308,
-              level: 3,
-              name: '龙潭区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710309,
-              level: 3,
-              name: '龟山区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710310,
-              level: 3,
-              name: '大园区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710311,
-              level: 3,
-              name: '观音区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710312,
-              level: 3,
-              name: '新屋区',
-              pid: 710300,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710313,
-              level: 3,
-              name: '复兴区',
-              pid: 710300,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710400,
-          level: 2,
-          name: '台中市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710401,
-              level: 3,
-              name: '中区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710402,
-              level: 3,
-              name: '东区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710403,
-              level: 3,
-              name: '西区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710404,
-              level: 3,
-              name: '南区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710405,
-              level: 3,
-              name: '北区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710406,
-              level: 3,
-              name: '西屯区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710407,
-              level: 3,
-              name: '南屯区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710408,
-              level: 3,
-              name: '北屯区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710409,
-              level: 3,
-              name: '丰原区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710410,
-              level: 3,
-              name: '大里区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710411,
-              level: 3,
-              name: '太平区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710412,
-              level: 3,
-              name: '东势区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710413,
-              level: 3,
-              name: '大甲区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710414,
-              level: 3,
-              name: '清水区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710415,
-              level: 3,
-              name: '沙鹿区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710416,
-              level: 3,
-              name: '梧栖区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710417,
-              level: 3,
-              name: '后里区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710418,
-              level: 3,
-              name: '神冈区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710419,
-              level: 3,
-              name: '潭子区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710420,
-              level: 3,
-              name: '大雅区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710421,
-              level: 3,
-              name: '新小区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710422,
-              level: 3,
-              name: '石冈区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710423,
-              level: 3,
-              name: '外埔区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710424,
-              level: 3,
-              name: '大安区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710425,
-              level: 3,
-              name: '乌日区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710426,
-              level: 3,
-              name: '大肚区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710427,
-              level: 3,
-              name: '龙井区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710428,
-              level: 3,
-              name: '雾峰区',
-              pid: 710400,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710429,
-              level: 3,
-              name: '和平区',
-              pid: 710400,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710500,
-          level: 2,
-          name: '台南市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710501,
-              level: 3,
-              name: '中西区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710502,
-              level: 3,
-              name: '东区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710503,
-              level: 3,
-              name: '南区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710504,
-              level: 3,
-              name: '北区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710505,
-              level: 3,
-              name: '安平区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710506,
-              level: 3,
-              name: '安南区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710507,
-              level: 3,
-              name: '永康区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710508,
-              level: 3,
-              name: '归仁区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710509,
-              level: 3,
-              name: '新化区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710510,
-              level: 3,
-              name: '左镇区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710511,
-              level: 3,
-              name: '玉井区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710512,
-              level: 3,
-              name: '楠西区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710513,
-              level: 3,
-              name: '南化区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710514,
-              level: 3,
-              name: '仁德区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710515,
-              level: 3,
-              name: '关庙区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710516,
-              level: 3,
-              name: '龙崎区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710517,
-              level: 3,
-              name: '官田区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710518,
-              level: 3,
-              name: '麻豆区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710519,
-              level: 3,
-              name: '佳里区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710520,
-              level: 3,
-              name: '西港区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710521,
-              level: 3,
-              name: '七股区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710522,
-              level: 3,
-              name: '将军区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710523,
-              level: 3,
-              name: '学甲区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710524,
-              level: 3,
-              name: '北门区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710525,
-              level: 3,
-              name: '新营区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710526,
-              level: 3,
-              name: '后壁区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710527,
-              level: 3,
-              name: '白河区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710528,
-              level: 3,
-              name: '东山区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710529,
-              level: 3,
-              name: '六甲区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710530,
-              level: 3,
-              name: '下营区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710531,
-              level: 3,
-              name: '柳营区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710532,
-              level: 3,
-              name: '盐水区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710533,
-              level: 3,
-              name: '善化区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710534,
-              level: 3,
-              name: '大内区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710535,
-              level: 3,
-              name: '山上区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710536,
-              level: 3,
-              name: '新市区',
-              pid: 710500,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710537,
-              level: 3,
-              name: '安定区',
-              pid: 710500,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710600,
-          level: 2,
-          name: '高雄市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710601,
-              level: 3,
-              name: '楠梓区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710602,
-              level: 3,
-              name: '左营区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710603,
-              level: 3,
-              name: '鼓山区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710604,
-              level: 3,
-              name: '三民区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710605,
-              level: 3,
-              name: '盐埕区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710606,
-              level: 3,
-              name: '前金区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710607,
-              level: 3,
-              name: '新兴区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710608,
-              level: 3,
-              name: '苓雅区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710609,
-              level: 3,
-              name: '前镇区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710610,
-              level: 3,
-              name: '旗津区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710611,
-              level: 3,
-              name: '小港区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710612,
-              level: 3,
-              name: '凤山区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710613,
-              level: 3,
-              name: '大寮区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710614,
-              level: 3,
-              name: '鸟松区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710615,
-              level: 3,
-              name: '林园区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710616,
-              level: 3,
-              name: '仁武区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710617,
-              level: 3,
-              name: '大树区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710618,
-              level: 3,
-              name: '大社区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710619,
-              level: 3,
-              name: '冈山区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710620,
-              level: 3,
-              name: '路竹区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710621,
-              level: 3,
-              name: '桥头区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710622,
-              level: 3,
-              name: '梓官区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710623,
-              level: 3,
-              name: '弥陀区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710624,
-              level: 3,
-              name: '永安区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710625,
-              level: 3,
-              name: '燕巢区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710626,
-              level: 3,
-              name: '阿莲区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710627,
-              level: 3,
-              name: '茄萣区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710628,
-              level: 3,
-              name: '湖内区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710629,
-              level: 3,
-              name: '旗山区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710630,
-              level: 3,
-              name: '美浓区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710631,
-              level: 3,
-              name: '内门区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710632,
-              level: 3,
-              name: '杉林区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710633,
-              level: 3,
-              name: '甲仙区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710634,
-              level: 3,
-              name: '六龟区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710635,
-              level: 3,
-              name: '茂林区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710636,
-              level: 3,
-              name: '桃源区',
-              pid: 710600,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710637,
-              level: 3,
-              name: '那玛夏区',
-              pid: 710600,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710700,
-          level: 2,
-          name: '基隆市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710701,
-              level: 3,
-              name: '中正区',
-              pid: 710700,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710702,
-              level: 3,
-              name: '七堵区',
-              pid: 710700,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710703,
-              level: 3,
-              name: '暖暖区',
-              pid: 710700,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710704,
-              level: 3,
-              name: '仁爱区',
-              pid: 710700,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710705,
-              level: 3,
-              name: '中山区',
-              pid: 710700,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710706,
-              level: 3,
-              name: '安乐区',
-              pid: 710700,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710707,
-              level: 3,
-              name: '信义区',
-              pid: 710700,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710800,
-          level: 2,
-          name: '新竹市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710801,
-              level: 3,
-              name: '东区',
-              pid: 710800,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710802,
-              level: 3,
-              name: '北区',
-              pid: 710800,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710803,
-              level: 3,
-              name: '香山区',
-              pid: 710800,
-            },
-            children: [],
-          },
-        ],
-      },
-      {
-        area: {
-          code: 710900,
-          level: 2,
-          name: '嘉义市',
-          pid: 710000,
-        },
-        children: [
-          {
-            area: {
-              code: 710901,
-              level: 3,
-              name: '东区',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 710902,
-              level: 3,
-              name: '西区',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719001,
-              level: 3,
-              name: '宜兰县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719002,
-              level: 3,
-              name: '新竹县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719003,
-              level: 3,
-              name: '苗栗县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719004,
-              level: 3,
-              name: '彰化县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719005,
-              level: 3,
-              name: '南投县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719006,
-              level: 3,
-              name: '嘉义县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719007,
-              level: 3,
-              name: '云林县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719008,
-              level: 3,
-              name: '屏东县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719009,
-              level: 3,
-              name: '台东县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719010,
-              level: 3,
-              name: '花莲县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719011,
-              level: 3,
-              name: '澎湖县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719012,
-              level: 3,
-              name: '金门县',
-              pid: 710900,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 719013,
-              level: 3,
-              name: '连江县',
-              pid: 710900,
-            },
-            children: [],
-          },
-        ],
-      },
-    ],
+    children: [],
   },
   {
     area: {
@@ -33700,175 +29287,165 @@ export default [
     children: [
       {
         area: {
-          code: 810100,
+          code: 810001,
           level: 2,
-          name: '香港特别行政区',
+          name: '中西区',
           pid: 810000,
         },
-        children: [
-          {
-            area: {
-              code: 810101,
-              level: 3,
-              name: '中西区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810102,
-              level: 3,
-              name: '湾仔区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810103,
-              level: 3,
-              name: '东区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810104,
-              level: 3,
-              name: '南区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810105,
-              level: 3,
-              name: '油尖旺区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810106,
-              level: 3,
-              name: '深水埗区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810107,
-              level: 3,
-              name: '九龙城区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810108,
-              level: 3,
-              name: '黄大仙区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810110,
-              level: 3,
-              name: '北区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810111,
-              level: 3,
-              name: '大埔区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810112,
-              level: 3,
-              name: '沙田区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810113,
-              level: 3,
-              name: '西贡区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810114,
-              level: 3,
-              name: '荃湾区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810115,
-              level: 3,
-              name: '屯门区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810116,
-              level: 3,
-              name: '元朗区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810117,
-              level: 3,
-              name: '葵青区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810118,
-              level: 3,
-              name: '离岛区',
-              pid: 810100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 810109,
-              level: 3,
-              name: '观塘区',
-              pid: 810100,
-            },
-            children: [],
-          },
-        ],
+        children: [],
+      },
+      {
+        area: {
+          code: 810002,
+          level: 2,
+          name: '湾仔区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810003,
+          level: 2,
+          name: '东区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810004,
+          level: 2,
+          name: '南区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810005,
+          level: 2,
+          name: '油尖旺区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810006,
+          level: 2,
+          name: '深水埗区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810007,
+          level: 2,
+          name: '九龙城区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810008,
+          level: 2,
+          name: '黄大仙区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810009,
+          level: 2,
+          name: '观塘区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810010,
+          level: 2,
+          name: '荃湾区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810011,
+          level: 2,
+          name: '屯门区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810012,
+          level: 2,
+          name: '元朗区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810013,
+          level: 2,
+          name: '北区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810014,
+          level: 2,
+          name: '大埔区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810015,
+          level: 2,
+          name: '西贡区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810016,
+          level: 2,
+          name: '沙田区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810017,
+          level: 2,
+          name: '葵青区',
+          pid: 810000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 810018,
+          level: 2,
+          name: '离岛区',
+          pid: 810000,
+        },
+        children: [],
       },
     ],
   },
@@ -33882,94 +29459,75 @@ export default [
     children: [
       {
         area: {
-          code: 820100,
+          code: 820001,
           level: 2,
-          name: '澳门特别行政区',
+          name: '花地玛堂区',
           pid: 820000,
         },
-        children: [
-          {
-            area: {
-              code: 820101,
-              level: 3,
-              name: '花地玛堂区',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820102,
-              level: 3,
-              name: '圣安多尼堂区',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820103,
-              level: 3,
-              name: '大堂区',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820104,
-              level: 3,
-              name: '望德堂区',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820105,
-              level: 3,
-              name: '风顺堂区',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820106,
-              level: 3,
-              name: '嘉模堂区',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820107,
-              level: 3,
-              name: '圣方济各堂区',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820108,
-              level: 3,
-              name: '路氹城',
-              pid: 820100,
-            },
-            children: [],
-          },
-          {
-            area: {
-              code: 820109,
-              level: 3,
-              name: '澳门新城',
-              pid: 820100,
-            },
-            children: [],
-          },
-        ],
+        children: [],
+      },
+      {
+        area: {
+          code: 820002,
+          level: 2,
+          name: '花王堂区',
+          pid: 820000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 820003,
+          level: 2,
+          name: '望德堂区',
+          pid: 820000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 820004,
+          level: 2,
+          name: '大堂区',
+          pid: 820000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 820005,
+          level: 2,
+          name: '风顺堂区',
+          pid: 820000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 820006,
+          level: 2,
+          name: '嘉模堂区',
+          pid: 820000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 820007,
+          level: 2,
+          name: '路凼填海区',
+          pid: 820000,
+        },
+        children: [],
+      },
+      {
+        area: {
+          code: 820008,
+          level: 2,
+          name: '圣方济各堂区',
+          pid: 820000,
+        },
+        children: [],
       },
     ],
   },

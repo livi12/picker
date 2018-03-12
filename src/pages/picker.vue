@@ -37,10 +37,10 @@
         <div class="footer">
             <a href="javascript:;" class="btn">去支付</a>
         </div>
-        <picker :pickList="address" :pickerShow="addressShow" :reset="false" :pickerNames="addressNames" v-on:cancelFn="cancelFn" v-on:confirmFn="confirmFn" label="area" listLabel="children" :level="2"></picker>
+        <picker :pickList="address" :pickerShow="addressShow" :reset="false" :pickerNames="addressNames" v-on:cancelFn="cancelFn" v-on:confirmFn="confirmFn" label="area" listLabel="children" :level="3"></picker>
         <picker :pickList="dateList" :pickerShow="dateShow" :pickerNames="dateNames" dot="-" v-on:cancelFn="cancelDateFn" v-on:confirmFn="confirmDateFn" v-if="dateShow"></picker>
         <timerPicker :pickerShow="date1Show" :showTime="showTime" startTime="2017-5-2" endTime="2028-1-2" dot="-" v-on:cancelFn="cancelDate1Fn" v-on:confirmFn="confirmDate1Fn" :level="1"></timerPicker>
-         <picker :pickList="genderList" :pickerShow="genderShow" :pickerNames="gender" v-on:cancelFn="cancelGenderFn" v-on:confirmFn="confirmGenderFn" :level="1"></picker>
+         <picker :pickList="genderList" :pickerShow="genderShow" :pickerNames="gender" v-on:cancelFn="cancelGenderFn" v-on:confirmFn="confirmGenderFn" :level="2"></picker>
     </div>
 </template>
 <script type="text/javascript">
@@ -49,8 +49,8 @@
     import picker from '@/components/picker.vue';
     // import picker from '@/components/picker.vue';
     import timerPicker from '@/components/timerPicker.vue';
-    import address from '@/util/addressData';
-    // import Api from '@/api/api';
+    // import addressData from 'http://cdn.elephtribe.com/lib/addressData/current/build/addressData.js';
+    import addressData from '@/util/addressData';
 
     export default {
       name: 'confirmOrder',
@@ -72,7 +72,7 @@
             maxNum: 10,
             inputVal: 3,
           },
-          address,
+          address:addressData,
           addressNames: '浙江省,温州市,洞头区',
           addressShow: false,
           dateNames: '2018-6-12',
