@@ -39,6 +39,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 三个动态组件： 级联选择地区 ，级联选择时间 ， 不关联的选择时间
 
+npm 下载 npm install vue-picker-livi --save-dev
+
 #### picker 组件参数
 
 `addressShow` 地址选择器展示与隐藏        

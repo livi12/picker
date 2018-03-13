@@ -46,7 +46,9 @@
 <script type="text/javascript">
     import Form from '@/components/form.vue';
     import FormItem from '@/components/formItem.vue';
-    import picker from '@/components/picker.vue';
+    // import picker from '@/components/picker.vue';
+    // 改为外部引用
+    import picker from 'vue-picker-livi';
     // import picker from '@/components/picker.vue';
     import timerPicker from '@/components/timerPicker.vue';
     // import addressData from 'http://cdn.elephtribe.com/lib/addressData/current/build/addressData.js';

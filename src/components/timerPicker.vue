@@ -77,12 +77,12 @@
         this.firstIn = true;
         const dom = this.$refs.year.firstChild;
         this.itemHeigth = Number.parseFloat(dom.firstChild.clientHeight);
-        // // 不重置，将数据回填
-        // if (!this.reset) {
-        //   this.getInitIndex();
-        // } else {
-        //   this.firstIn = false;
-        // }
+        // 不重置，将数据回填
+        if (!this.reset) {
+          this.getInitIndex();
+        } else {
+          this.firstIn = false;
+        }
       },
       methods: {
         // 确定按钮
