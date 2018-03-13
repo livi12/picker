@@ -11,13 +11,13 @@
                 </div>
                 <div class="pick-box">
                     <div class="content" >
-                        <div class="content-item" v-picker.firstList="{set:set}" ref="firstList" :data-index="pIndex" >
-                            <div class="picker-item" >
+                        <div class="content-item"  v-picker.firstList="{set:set}" ref="firstList" :data-index="pIndex">
+                            <div class="picker-item">
                                 <div class="item" :class="{on :index==pIndex}" v-for="(val,index) of pickList" :key="index">{{val[label].name || val.name}}</div>
                             </div>
                         </div>
-                        <div class="content-item"  v-picker.secondList="{set:set}" ref="secondList" :data-index="cIndex" v-if="level==2 || level==3">
-                            <div class="picker-item">
+                        <div class="content-item" v-if="level==2 || level==3" v-picker.secondList="{set:set}" ref="secondList" :data-index="cIndex">
+                            <div class="picker-item"  >
                                 <div class="item" :class="{on :index==cIndex}" v-for="(val,index) of secondList" :key="index">{{val[label].name|| val.name}}</div>
                             </div>
                         </div>
@@ -78,11 +78,12 @@
         };
       },
       mounted() {
-        this.firstIn = true;
         const dom = this.$refs.firstList.firstChild;
         this.itemHeigth = Number.parseFloat(dom.firstChild.clientHeight);
+        this.windowResize();
         // 不重置，将数据回填
         if (!this.reset) {
+          this.firstIn = true;
           this.getAddreessIndex();
         } else {
           this.firstIn = false;
@@ -114,6 +115,15 @@
             this.tIndex = index;
           }
         },
+        // 调整窗口大小
+        windowResize() {
+          window.addEventListener('resize', () => {
+            setTimeout(() => {
+              const dom = this.$refs.firstList.firstChild;
+              this.itemHeigth = Number.parseFloat(dom.firstChild.clientHeight);
+            }, 300);
+          });
+        },
         // 有默认的选择信息
         getAddreessIndex() {
           const firstList = this.pickerNames.split(this.dot)[0];
@@ -124,7 +134,7 @@
               this.pIndex = i;
               this.$refs.firstList.children[0].style.transform = `translateY(${-this.itemHeigth * this.pIndex}px)`;
               const secondLists = this.pickList[this.pIndex][this.listLabel];
-              if (secondLists && secondLists.length && this.level == 2 && this.level == 3) {
+              if (secondLists && secondLists.length && (this.level == 2 || this.level == 3)) {
                 for (let j = 0; j < secondLists.length; j += 1) {
                   if ((typeof (secondLists[j][this.label]) === 'object' && secondLists[j][this.label].name == secondList) || (secondLists[j][this.label] == secondList)) {
                     this.cIndex = j;
@@ -135,20 +145,13 @@
                         if ((typeof (thirdLists[k][this.label]) === 'object' && thirdLists[k][this.label].name == thirdList) || (thirdLists[k][this.label] == thirdList)) {
                           this.tIndex = k;
                           this.$refs.thirdList.children[0].style.transform = `translateY(${-this.itemHeigth * k}px)`;
-                          setTimeout(() => { this.firstIn = false; }, 500);
                           break;
-                        } else if (k == thirdLists.length - 1) {
-                          setTimeout(() => { this.firstIn = false; }, 500);
                         }
                       }
-                    } else {
-                      setTimeout(() => { this.firstIn = false; }, 500);
                     }
                     break;
                   }
                 }
-              } else {
-                setTimeout(() => { this.firstIn = false; }, 500);
               }
               break;
             }
@@ -192,8 +195,14 @@
           if (val) {
             const dom = this.$refs.firstList.firstChild;
             this.itemHeigth = Number.parseFloat(dom.firstChild.clientHeight);
+            if (this.firstIn) {
+              this.getAddreessIndex();
+            }
+            this.$nextTick(()=>{
+              this.firstIn = false;
+            });
           } else if (this.reset) {
-            this.firstIn = true;
+            this.firstIn = !this.reset ? true : false;
             this.pIndex = 0;
             this.cIndex = 0;
             this.tIndex = 0;
@@ -205,10 +214,19 @@
             }
           }
         },
+        itemHeigth(val) {
+          this.$refs.firstList.children[0].style.transform = `translateY(${-this.itemHeigth * this.pIndex}px)`;
+          if (this.level == 2 || this.level == 3) {
+            this.$refs.secondList.children[0].style.transform = `translateY(${-this.itemHeigth * this.cIndex}px)`;
+          }
+          if (this.level == 3) {
+            this.$refs.thirdList.children[0].style.transform = `translateY(${-this.itemHeigth * this.tIndex}px)`;
+          }
+        },
       },
       directives: {
         picker: {
-          inserted(el, binding) {
+          inserted(el, binding, vnode) {
             let startY = '';
             let differY = '';
             let currentY = 0;
@@ -268,7 +286,7 @@
 <style lang="scss" scoped>
     $font-base-size: 24;
     $font-size: (26rem/$font-base-size);
-    $line-Height: (62rem/$font-base-size);
+    $line-Height: 31px;
     .mask{
         position:fixed;
         left: 0;
