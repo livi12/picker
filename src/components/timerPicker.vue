@@ -119,7 +119,8 @@
           this.$refs.year.children[0].style.transform = `translateY(${-this.itemHeigth * (this.nowYear - this.startYear)}px)`;
           if (this.level ==2 || this.level ==3){
             this.$refs.month.children[0].style.transform = `translateY(${-this.itemHeigth * (this.nowMonth - 1)}px)`;
-          }else if (this.level ==3 ){
+          }
+          if (this.level ==3 ){
             this.$refs.day.children[0].style.transform = `translateY(${-this.itemHeigth * (this.nowDay - 1)}px)`;
           }
         },

@@ -39,7 +39,7 @@
         </div>
         <picker :pickList="address" :pickerShow="addressShow" :reset="false" :pickerNames="addressNames" v-on:cancelFn="cancelFn" v-on:confirmFn="confirmFn" label="area" listLabel="children" :level="3"></picker>
         <picker :pickList="dateList" :pickerShow="dateShow" :pickerNames="dateNames" dot="-" v-on:cancelFn="cancelDateFn" v-on:confirmFn="confirmDateFn" v-if="dateShow"></picker>
-        <timerPicker :pickerShow="date1Show" :showTime="showTime" startTime="2017-5-2" endTime="2028-1-2" dot="-" v-on:cancelFn="cancelDate1Fn" v-on:confirmFn="confirmDate1Fn" :level="1"></timerPicker>
+        <timerPicker :pickerShow="date1Show" :showTime="showTime" startTime="2017-5-2" endTime="2028-1-2" dot="-" v-on:cancelFn="cancelDate1Fn" v-on:confirmFn="confirmDate1Fn" :level="3"></timerPicker>
          <picker :pickList="genderList" :pickerShow="genderShow" :pickerNames="gender" v-on:cancelFn="cancelGenderFn" v-on:confirmFn="confirmGenderFn" :level="2"></picker>
     </div>
 </template>
